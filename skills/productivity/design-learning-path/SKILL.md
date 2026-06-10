@@ -1,0 +1,98 @@
+---
+name: design-learning-path
+description: Designs a step-by-step path whose ordered model transitions compound competency, reduce future learning friction, and push the learner into a pit of success. Use when the user asks for a roadmap, curriculum, mastery sequence, multi-step learning mission, or when learn-deeply needs the next leverage-ordered transitions.
+---
+
+# Design Learning Path
+
+## Compounding Objective
+
+Build a step-by-step structured path to the target state. Order it so each step
+compounds competency, pushes the learner into a pit of success, and increases
+the rate at which succeeding steps can be learned by reusing relevant prior
+foundations.
+
+Each model-transition step must:
+
+- Increase current generative capability
+- Build foundations reused by several later steps
+- Reduce the friction and working memory required by later learning
+- Recontextualize and compress prior knowledge
+- Unlock better questions, probes, feedback, or artifacts
+- Make the correct next action the easiest natural action: a pit of success
+
+Successive steps should accelerate not only competency, but the rate at which
+later competency can be acquired. Treat "exponential" as a design objective
+meaning multiplicative reuse and increasing learning leverage, not a numerical
+promise. Each path step is one model transition. State its causal compounding
+mechanism.
+
+## Establish the Target
+
+1. Define the target generative capability, use conditions, and why it matters.
+2. Define observable independent success.
+3. Read relevant global learner evidence and local mission state.
+4. Verify claimed prior knowledge before using it to compress the path.
+
+## Autopsy the Domain
+
+Ground unstable claims in high-trust, version-matched sources. Identify:
+
+- What experts perceive, predict, debug, or derive differently
+- Core primitives, invariants, and boundary conditions
+- Prerequisite relations and high-leverage thresholds
+- Common limiting models and where they fail
+- Real use conditions, artifacts, failure modes, and feedback loops
+
+## Build the Graph
+
+1. Map thresholds and the capabilities each one unlocks.
+2. Locate the learner using predictions, explanations, artifacts, or transfer.
+3. Choose the highest-leverage threshold among currently reachable nodes.
+4. Add only prerequisites needed for a meaningful collision and verification.
+5. Order steps so each consumes foundations from earlier steps and lowers the
+   cost of later ones.
+6. Schedule recontextualization after every major threshold.
+
+Leverage chooses the destination. Current capability chooses step size and
+scaffolding.
+
+## Design Each Path Step
+
+Define:
+
+- Capability unlocked
+- Prior foundations consumed
+- Limiting model and useful boundary
+- New invariant or generative model
+- Engineered breaking experience
+- Artifact and fast feedback loop
+- Generative gate
+- Future friction removed
+- Later steps accelerated
+- Prior knowledge recontextualized
+- Pit-of-success environment
+
+Supporting terminology, retrieval, and fluency may sit inside path steps.
+Do not misrepresent them as transformations.
+
+## Validate the Sequence
+
+- Every threshold has a named compounding mechanism.
+- Every foundation is consumed by a later step; no inert prerequisites.
+- Every step produces evidence and makes at least one successor easier.
+- The order beats plausible alternatives by leverage, not convention.
+- Gates test generation, reconstruction, or transfer.
+- Real use conditions appear early enough for feedback to shape the path.
+- New learner evidence can reorder, split, insert, or remove steps.
+
+Write the result using [PATH-FORMAT.md](./PATH-FORMAT.md). In an active
+workspace, update `.learning/CURRICULUM.md`.
+See [EXAMPLES.md](./EXAMPLES.md) for concrete path and micro-path examples.
+
+## Do Not
+
+- Return a topic inventory or generic beginner-to-advanced ladder.
+- Claim exponential growth without naming the reuse mechanism.
+- Treat the graph as a fixed perfect DAG.
+- Infer mastery from exposure, credentials, confidence, or correct output.
