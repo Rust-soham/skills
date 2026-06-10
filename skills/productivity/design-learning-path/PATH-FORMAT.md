@@ -21,8 +21,8 @@ Use only sections the task needs.
 - Relevant local context:
 
 ## Domain Map
-| Threshold | Limiting model | Generative model | Prerequisites | Unlocks |
-| --- | --- | --- | --- | --- |
+| Threshold | Status | Limiting model | Generative model | Prerequisites | Unlocks |
+| --- | --- | --- | --- | --- | --- |
 
 ## Sequence
 
@@ -86,7 +86,15 @@ Create a separate reusable reference when needed:
 - Invariants:
 - Boundary conditions:
 - Prerequisite edges:
-- Thresholds and unlocks:
+- Thresholds, grounding status, and unlocks:
+
+## Threshold Mining
+- Cases compared:
+- Surface differences removed:
+- Representations rotated:
+- Candidate invariant:
+- Grounding evidence:
+- Generative predictions:
 
 ## Limiting Models
 ### <Model>

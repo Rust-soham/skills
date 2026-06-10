@@ -24,6 +24,8 @@ verify`
 ## Required Output
 
 - Old model
+- Externalized or named representation when structure would otherwise remain
+  vague
 - Prediction or attempted action
 - Observation
 - Failed assumption
@@ -36,6 +38,8 @@ verify`
 
 - Change one load-bearing assumption at a time.
 - Do not persist an unverified repair.
+- Preserve superseded models and the conditions they failed instead of erasing
+  the transition.
 - Do not confuse an inspectable correct answer with an inspectable model delta.
 
 ## Sources

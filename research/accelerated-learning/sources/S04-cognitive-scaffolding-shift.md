@@ -12,17 +12,17 @@ The opening thesis is that people increasingly outsource the support structures
 for memory, attention, reasoning, and decision-making to search, AI, notes, and
 other tools. The resulting role can shift from internal thinker to external
 orchestrator
-([19-60](../../../transcripts/Cognitive%20scaffolding%20shift.md#L19)).
+([17-75](../../../transcripts/Cognitive%20scaffolding%20shift.md#L17)).
 
 The source warns that this can create a false sense of knowledge while reducing
 depth, sustained attention, intuition formed through familiarity, and
 independent judgment. Information access rises while internal navigability may
 fall
-([62-90](../../../transcripts/Cognitive%20scaffolding%20shift.md#L62)).
+([79-124](../../../transcripts/Cognitive%20scaffolding%20shift.md#L79)).
 
 `SOURCE`: External tools should clarify, compress, and simulate without
 replacing the learner's internal model-building repetitions
-([94-103](../../../transcripts/Cognitive%20scaffolding%20shift.md#L94)).
+([110-124](../../../transcripts/Cognitive%20scaffolding%20shift.md#L110)).
 
 `REFINEMENT`: The danger is not external scaffolding itself. It is scaffolding
 that lets the learner act successfully without retaining enough structure to
@@ -33,7 +33,7 @@ predict, judge, or recover when the scaffold is absent or wrong.
 The user challenges whether modern learners need to remember information at all.
 The response distinguishes exhaustive recall from holding enough structure to
 reason and simulate
-([112-152](../../../transcripts/Cognitive%20scaffolding%20shift.md#L112)).
+([135-170](../../../transcripts/Cognitive%20scaffolding%20shift.md#L135)).
 
 `SOURCE`: Expertise relies on:
 
@@ -42,11 +42,11 @@ reason and simulate
 - Testing predictions against behavior
 - Updating the model from the result
 
-([128-171](../../../transcripts/Cognitive%20scaffolding%20shift.md#L128))
+([171-209](../../../transcripts/Cognitive%20scaffolding%20shift.md#L171))
 
 Without the internal model, tools may produce code or answers, but the learner
 cannot navigate, predict, or debug when behavior changes
-([175-194](../../../transcripts/Cognitive%20scaffolding%20shift.md#L175)).
+([210-226](../../../transcripts/Cognitive%20scaffolding%20shift.md#L210)).
 
 ### User's Learning Loop
 
@@ -60,7 +60,7 @@ The user describes:
 6. Zoom out for missing information.
 7. Rebuild and repeat until the model survives.
 
-([200-205](../../../transcripts/Cognitive%20scaffolding%20shift.md#L200))
+([234-236](../../../transcripts/Cognitive%20scaffolding%20shift.md#L234))
 
 This is primary source evidence for analogy as a model-construction tool and for
 alternating local detail with broader context.
@@ -71,36 +71,36 @@ alternating local detail with broader context.
 
 When a model breaks, identify the exact failed assumption. This debugs cognition
 rather than only the task
-([211-219](../../../transcripts/Cognitive%20scaffolding%20shift.md#L211)).
+([242-258](../../../transcripts/Cognitive%20scaffolding%20shift.md#L242)).
 
 #### Name Models
 
 Canonical names compress many details into reusable mental objects and free
 working memory
-([223-233](../../../transcripts/Cognitive%20scaffolding%20shift.md#L223)).
+([259-275](../../../transcripts/Cognitive%20scaffolding%20shift.md#L259)).
 
 #### Externalize Models
 
 Drawing relationships, flows, and edge cases exposes vagueness and creates
 inspectable proof
-([237-250](../../../transcripts/Cognitive%20scaffolding%20shift.md#L237)).
+([276-296](../../../transcripts/Cognitive%20scaffolding%20shift.md#L276)).
 
 #### Preserve Dead Models
 
 Store discarded analogies and the condition they missed. Broken models become
 warnings against recurring mistakes
-([254-264](../../../transcripts/Cognitive%20scaffolding%20shift.md#L254)).
+([297-313](../../../transcripts/Cognitive%20scaffolding%20shift.md#L297)).
 
 #### Stress-Test Edge Cases
 
 Deliberately probe unusual conditions so the model survives beyond normal
 examples
-([268-276](../../../transcripts/Cognitive%20scaffolding%20shift.md#L268)).
+([314-329](../../../transcripts/Cognitive%20scaffolding%20shift.md#L314)).
 
 #### Teach Back
 
 Explanation reveals whether the model can be transferred into another mind
-([280-285](../../../transcripts/Cognitive%20scaffolding%20shift.md#L280)).
+([330-343](../../../transcripts/Cognitive%20scaffolding%20shift.md#L330)).
 
 The source compresses the loop as:
 
@@ -108,17 +108,21 @@ The source compresses the loop as:
 
 with explicit failure tracking, naming, visualization, stress testing, dead
 model storage, and teaching
-([289-302](../../../transcripts/Cognitive%20scaffolding%20shift.md#L289)).
+([344-360](../../../transcripts/Cognitive%20scaffolding%20shift.md#L344)).
 
 ### Cognition Boundary
 
 The later section defines cognition as model building, constraint management,
 simulation, judgment under uncertainty, and revision after contact with reality
-([317-332](../../../transcripts/Cognitive%20scaffolding%20shift.md#L317)).
+([383-403](../../../transcripts/Cognitive%20scaffolding%20shift.md#L383)).
 
 Secondary friction includes retrieval and mechanics that consume working memory
 without improving the model
-([336-353](../../../transcripts/Cognitive%20scaffolding%20shift.md#L336)).
+([407-430](../../../transcripts/Cognitive%20scaffolding%20shift.md#L407)).
+
+The restored user turn gives direct primary evidence for this boundary:
+preserve thinking and productive struggle while removing secondary friction
+([366-368](../../../transcripts/Cognitive%20scaffolding%20shift.md#L366)).
 
 It proposes:
 
@@ -127,7 +131,13 @@ It proposes:
 - Delegate syntax, boilerplate, lookup, mechanical refactoring, summaries,
   formalization, and post-model edge-case enumeration.
 
-([379-405](../../../transcripts/Cognitive%20scaffolding%20shift.md#L379))
+([461-501](../../../transcripts/Cognitive%20scaffolding%20shift.md#L461))
+
+The closing formulation warns that output can blur the felt boundary between
+thinking and not thinking. Its final loop leaves problem definition, rough
+model formation, reality testing, and revision with the learner while AI
+handles syntax, references, and boilerplate
+([531-581](../../../transcripts/Cognitive%20scaffolding%20shift.md#L531)).
 
 ### Failure Modes
 
@@ -150,7 +160,7 @@ retains key nodes and relations required for simulation.
 that must be compared, bounded, and broken.
 
 `QUESTION`: The claim that AI should "never touch" model testing or refinement
-([447-461](../../../transcripts/Cognitive%20scaffolding%20shift.md#L447))
+([539-555](../../../transcripts/Cognitive%20scaffolding%20shift.md#L539))
 conflicts with later plans for AI-generated probes and targeted exercises. A
 likely refinement is that AI may design or operate the environment while the
 learner must make the prediction, observe the result, and own the update.

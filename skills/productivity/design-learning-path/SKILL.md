@@ -39,14 +39,15 @@ mechanism.
 Ground unstable claims in high-trust, version-matched sources. Identify:
 
 - What experts perceive, predict, debug, or derive differently
-- Core primitives, invariants, and boundary conditions
+- Core primitives, invariants, boundary conditions, and candidate coordinate shifts
 - Prerequisite relations and high-leverage thresholds
 - Common limiting models and where they fail
 - Real use conditions, artifacts, failure modes, and feedback loops
 
 ## Build the Graph
 
-1. Map thresholds and the capabilities each one unlocks.
+1. Map grounded thresholds. If absent, mine candidates by comparing varied
+   cases, rotating representations, and testing which invariant survives.
 2. Locate the learner using predictions, explanations, artifacts, or transfer.
 3. Choose the highest-leverage threshold among currently reachable nodes.
 4. Add only prerequisites needed for a meaningful collision and verification.
@@ -54,8 +55,8 @@ Ground unstable claims in high-trust, version-matched sources. Identify:
    cost of later ones.
 6. Schedule recontextualization after every major threshold.
 
-Leverage chooses the destination. Current capability chooses step size and
-scaffolding.
+Treat mined thresholds as hypotheses until domain evidence and learner behavior
+support them. Leverage chooses the destination; capability chooses step size and scaffolding.
 
 ## Design Each Path Step
 

@@ -18,11 +18,11 @@ do not universalize punitive cadence, code limits, or anti-theory rules.
 The user describes repeatedly leaving when work becomes difficult, substituting
 courses, planning, lurking, and screens for end-to-end project work. External
 structure previously supplied deadlines, reinforcement, and reduced ambiguity
-([11-13](../../../transcripts/Friction%20Avoidance%20Hell.md#L11)).
+([3-5](../../../transcripts/Friction%20Avoidance%20Hell.md#L3)).
 
 The transcript names the pattern "friction avoidance": discomfort plus an easy
 escape route repeatedly terminates the learning loop
-([23-56](../../../transcripts/Friction%20Avoidance%20Hell.md#L23)).
+([17-58](../../../transcripts/Friction%20Avoidance%20Hell.md#L17)).
 
 `SOURCE`: The system must distinguish a genuine conceptual blocker from an
 avoidance transition. Both can look like "I need to learn more," but require
@@ -32,15 +32,15 @@ opposite responses.
 
 The source recommends consuming information only when it is immediately used to
 advance a concrete project
-([62-76](../../../transcripts/Friction%20Avoidance%20Hell.md#L62)).
+([64-77](../../../transcripts/Friction%20Avoidance%20Hell.md#L64)).
 
 The project should initially be small enough to finish end to end, with scope
 restrictions that prevent ambition from becoming another escape
-([149-184](../../../transcripts/Friction%20Avoidance%20Hell.md#L149)).
+([118-169](../../../transcripts/Friction%20Avoidance%20Hell.md#L118)).
 
 Progress is defined by a concrete artifact change rather than hours, motivation,
 or content consumed
-([188-205](../../../transcripts/Friction%20Avoidance%20Hell.md#L188)).
+([173-194](../../../transcripts/Friction%20Avoidance%20Hell.md#L173)).
 
 `REFINEMENT`: For this learner, the local project is not merely context for
 better exercises. It is the behavioral rail that prevents learning from
@@ -53,7 +53,7 @@ The source proposes:
 `concrete problem -> provisional model -> imperfect attempt -> specific
 confusion -> targeted question -> model repair -> ship -> repeat`
 
-([243-262](../../../transcripts/Friction%20Avoidance%20Hell.md#L243)).
+([235-264](../../../transcripts/Friction%20Avoidance%20Hell.md#L235)).
 
 It later separates:
 
@@ -62,7 +62,7 @@ It later separates:
   work.
 
 The proposed switch is blockage rather than boredom
-([418-439](../../../transcripts/Friction%20Avoidance%20Hell.md#L418)).
+([427-454](../../../transcripts/Friction%20Avoidance%20Hell.md#L427)).
 
 `QUESTION`: Waiting until blocked may be appropriate for avoidance-prone
 project work, but insufficient for proactive unknown-unknown discovery and
@@ -77,7 +77,7 @@ For unfamiliar technology, the transcript recommends:
 3. Build the smallest incomplete or wrong version.
 4. Ask about intent and system behavior when evidence becomes confusing.
 
-([348-415](../../../transcripts/Friction%20Avoidance%20Hell.md#L348))
+([347-423](../../../transcripts/Friction%20Avoidance%20Hell.md#L347))
 
 `REFINEMENT`: The smallest wrong version is both progress and a diagnostic
 instrument. It creates concrete evidence without requiring broad preparation.
@@ -98,24 +98,35 @@ Across the proposed prompts, durable behaviors are:
   learning detours.
 - Prefer a small shippable step that builds reusable judgment.
 
-([99-143](../../../transcripts/Friction%20Avoidance%20Hell.md#L99),
-[489-579](../../../transcripts/Friction%20Avoidance%20Hell.md#L489),
-[640-758](../../../transcripts/Friction%20Avoidance%20Hell.md#L640))
+([82-112](../../../transcripts/Friction%20Avoidance%20Hell.md#L82),
+[493-565](../../../transcripts/Friction%20Avoidance%20Hell.md#L493),
+[569-609](../../../transcripts/Friction%20Avoidance%20Hell.md#L569))
 
 Success evidence includes explaining the system in one's own words, rebuilding
 the feature, shipping an imperfect artifact, and making the next project easier
-([566-579](../../../transcripts/Friction%20Avoidance%20Hell.md#L566),
-[749-753](../../../transcripts/Friction%20Avoidance%20Hell.md#L749)).
+([541-561](../../../transcripts/Friction%20Avoidance%20Hell.md#L541),
+[588-609](../../../transcripts/Friction%20Avoidance%20Hell.md#L588)).
 
 ### Growth-Compounding Step Selection
 
 The user explicitly asks the agent to choose steps whose order compounds
 competency while building products
-([623-625](../../../transcripts/Friction%20Avoidance%20Hell.md#L623)).
+([569-571](../../../transcripts/Friction%20Avoidance%20Hell.md#L569)).
 
 The response prioritizes steps that expose reusable abstractions, system
 boundaries, state, data flow, and lifecycle over low-signal mechanical work
-([671-678](../../../transcripts/Friction%20Avoidance%20Hell.md#L671)).
+([577-592](../../../transcripts/Friction%20Avoidance%20Hell.md#L577)).
+
+The restored user turn states the operating boundary directly: learn while
+building, retain ownership of problem understanding and solution iteration, and
+let AI interpret documentation and remove non-cognitive friction
+([569-571](../../../transcripts/Friction%20Avoidance%20Hell.md#L569)).
+
+The closing responsibility is continued artifact contact: choose a
+learning-rich step, enter the editor, and keep the loop concrete
+([596-630](../../../transcripts/Friction%20Avoidance%20Hell.md#L596)).
+The proposed daily cadence is a contextual behavior aid, not a universal
+learning invariant.
 
 `SYNTHESIS`: In a build mission, next-step selection has at least two objectives:
 

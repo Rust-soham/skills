@@ -19,8 +19,8 @@ Disposition codes:
 
 ## Audit Result
 
-All 16 transcript files have contiguous line-range coverage: 16,358 logical lines
-assigned across 89 semantic ranges with no gaps or overlaps. The audit found
+All 16 transcript files have contiguous line-range coverage: 18,205 logical
+lines assigned across 91 semantic ranges with no gaps or overlaps. The audit found
 and repaired these underrepresented concepts:
 
 - External scaffolding can produce successful orchestration without internal
@@ -33,6 +33,22 @@ and repaired these underrepresented concepts:
 - IDE context should be narrow, relevant, version-aware, and provenance-visible.
 - Emotional transmutation is a contextual learner hypothesis, not a universal
   or agent-induced mechanism.
+
+A later concept-level re-scan found no uncovered transcript region, but promoted
+three mechanisms that were too dispersed across source notes: directed
+confusion and feedback density, bifocal learner/domain modeling, and
+metacognitive probe internalization. See
+[SECOND-PASS-AUDIT.md](SECOND-PASS-AUDIT.md).
+
+The restoration pass also:
+
+- Reclassified restored learner-authored turns as primary evidence.
+- Preserved S02's full cybersecurity derivation and its boundary from the
+  universal curriculum theory.
+- Added threshold mining through representation rotation and invariants.
+- Added first-move path dependence and explicit cognitive ergonomics.
+- Retained product, technical-example, and labor-market branches as contextual
+  evidence rather than silently dropping them.
 
 ## S01: Actual Roadmap
 
@@ -56,12 +72,12 @@ Source note: [S02](sources/S02-elite-hacker-roadmap.md)
 
 | Lines | Disposition | Discussion covered |
 | --- | --- | --- |
-| 1-10 | N | Export metadata. |
-| 11-588 | E, C | Universal skill stack: orientation, primitives, feedback, toys, real projects, pattern library, constraints, integration, specialization, taste, ordering rules, examples, and reusable design template. |
-| 589-616 | R | User correction toward threshold-engineered sequencing and the transition from a broad stack to model-transition design. |
-| 617-1029 | E, C | Target capability, primitives, invariants, threshold concepts, troublesome confusion, engineered experience, artifacts, old-model breaking, gates, and crossing tests, with domain examples. |
-| 1030-1171 | E, C | Worked authorization, state, and offer modules. Retained as demonstrations of the schema rather than universal content. |
-| 1172-1450 | E | Compounding stack integration, threshold sequencing, threshold maps, hard-to-unsee criterion, learning journal, and final abstract formulation. |
+| 1-10 | E, C | User's broad cybersecurity capability target and export framing. The authorized-use boundary appears in the response rather than the request. |
+| 11-537 | E, C, I, U | Legal framing, systems/programming/networking/security substrates, web and lab progression, OS internals, reverse engineering, enterprise and cloud surfaces, specialization lanes, and institutional training pattern. Domain claims are preserved but require current security verification before reuse. |
+| 538-835 | E, C, I | Weekly and annual practice structure, deliverables, first-month plan, tools, expert perceptual questions, and learner-specific route from web/infra strengths into deeper security work. |
+| 836-1302 | E, C | Generalized compounding skill stack: orientation, primitives, feedback, toy and real projects, pattern extraction, constraints, integration, specialization, taste, leverage dependency, examples, and pit-of-success template. |
+| 1303-1882 | E, C | Learner-authored threshold formulation, primitives versus invariants, coordinate-system change, domain examples, liminality, generative clicks, threshold-mining procedure, representation rotation, invariants-first learning, and connection to the compounding stack. |
+| 1883-2447 | E, C | Learner request to engineer transformative, troublesome, integrative, and hard-to-unsee thresholds; seven-field module schema, old-model breaking, gates, crossing tests, worked modules, threshold graph, sequencing, journal, and final formulation. |
 
 ## S03: AI and Cognitive Softness
 
@@ -69,9 +85,10 @@ Source note: [S03](sources/S03-ai-and-cognitive-softness.md)
 
 | Lines | Disposition | Discussion covered |
 | --- | --- | --- |
-| 1-10 | N | Export metadata. |
-| 11-258 | E, U | Cognitive softness thesis, model starvation, epistemic confidence, slow thinking, identity, reconstruction, AI-as-environment, and protected confusion. Absolute timing rules are treated as contextual. |
-| 259-434 | E, N | Productive versus wasted friction, subtle takeover failure, load-to-RAM-ceiling workflow, tool-layer assistance, reintegration, long-term judgment, independent-reconstruction check, and conversational tail. |
+| 1-8 | E, C | User asks about AI-driven cognitive outsourcing, individual softening, and long-term dependence. |
+| 9-306 | E, U | Cognitive softness thesis, model starvation, epistemic confidence, slow thinking, authorship, structural dependence, reconstruction, AI-as-environment, and protected confusion. Absolute timing rules remain contextual. |
+| 307-312 | E | Restored direct learner boundary: preserve thinking and productive struggle while removing RAM-overload and secondary friction. |
+| 313-555 | E, C | Productive versus wasted friction, path dependence of the first move, load-to-RAM-ceiling workflow, tool-layer assistance, reintegration, long-term judgment, and independence checks. |
 
 ## S04: Cognitive Scaffolding Shift
 
@@ -79,11 +96,10 @@ Source note: [S04](sources/S04-cognitive-scaffolding-shift.md)
 
 | Lines | Disposition | Discussion covered |
 | --- | --- | --- |
-| 1-10 | N | Export metadata. |
-| 11-109 | E, U | Externalized cognitive scaffolding, thinker-to-orchestrator shift, shallow filtering, fragmented attention, reactive decisions, false knowledge, and the internal-model safeguard. Population-level rhetoric is not treated as measured fact. |
-| 110-194 | E | Memory versus structural retention, key nodes, internal simulation, prediction, refinement, expertise examples, and the danger of output without navigability. |
-| 195-302 | E | User's zoom-in/zoom-out learning loop, failure logging, model naming, visualization, dead-model storage, edge tests, and teaching. |
-| 303-482 | E, R, N | Definition of cognition, secondary friction, human/tool boundary, exoskeleton framing, upgraded loop, tension between learner-owned testing and AI-designed probes, and conversational tail. |
+| 1-8 | E, C | User frames a general inquiry into outsourced cognitive scaffolding. |
+| 9-233 | E, U | Externalized scaffolding, thinker-to-orchestrator shift, fragmented attention, false knowledge, internal-model safeguard, structural memory, key nodes, internal simulation, and prediction. Population-level claims remain unverified. |
+| 234-365 | E | Restored learner-authored zoom/analogy/provisional-model/FAFO loop plus failure logging, naming, visualization, dead-model storage, edge tests, and teach-back. |
+| 366-601 | E, R | Restored chosen-friction boundary, definition of cognition, secondary friction, human/tool responsibilities, exoskeleton framing, upgraded loop, and tension between learner-owned testing and AI-designed probes. |
 
 ## S05: Delayed Growth, Exponential Jump
 
@@ -91,11 +107,11 @@ Source note: [S05](sources/S05-delayed-growth.md)
 
 | Lines | Disposition | Discussion covered |
 | --- | --- | --- |
-| 1-10 | N | Export metadata. |
-| 11-194 | E, C | Autobiographical slow-ramp/large-jump pattern, hidden structure accumulation, cross-skill recurrence, plateau risk, and use of the pattern without turning it into a fixed identity. |
-| 195-503 | E, R | AI contract, no-full-solution default, progressive hints, exploration versus implementation, signature-level help, decision checkpoints, critique, delegation threshold, and model-quality metrics. |
-| 504-803 | E | Correction from accelerating clicks to compressing the slow phase through less randomness, clearer feedback, correct focus, iteration density, and early misalignment detection. |
-| 804-1034 | E, U | Desire for repeated unlocks, curiosity loop, mismatch signals, model reorganization, click-chasing danger, sustainable reinforcement, and final grounding. Obsession rhetoric is not a success criterion. |
+| 1-10 | E, C | Learner's autobiographical slow-ramp and sudden badminton improvement. |
+| 11-231 | E, C, U | Hidden subskill accumulation, threshold interpretation, fundamentals, delayed visible progress, comparison risk, and fixed-personality overstatement. |
+| 232-587 | E, R | AI contract, progressive hints, exploration versus implementation, signature-level help, decision checkpoints, critique, delegation threshold, disagreement, model-quality metrics, and compressed operating loop. |
+| 588-930 | E | Restored request to optimize the slow phase; structured confusion, speed of correct realization, correct focus, feedback clarity, iteration density, and early practice-target misalignment detection. |
+| 931-1205 | E, U | Restored desire for recurring step-function gains, click-chasing risk, high-quality repetitions inside confusion, invisible progress, process checkpoints, and grounded close. Intensity is not the target. |
 
 ## S06: AI in Dev Workflows
 
@@ -103,11 +119,11 @@ Source note: [S06](sources/S06-ai-in-dev-workflows.md)
 
 | Lines | Disposition | Discussion covered |
 | --- | --- | --- |
-| 1-10 | N | Export metadata. |
-| 11-245 | E, C, U | Senior leverage, adjacent unknowns, explain-back, comparative taste, high-signal failure domains, constraint thinking, intuition before delegation, and rewrite-from-scratch rule. The absolute rewrite rule is softened to auditability. |
-| 246-582 | E, R | Concurrent cognitive load, three AI modes, primitive-first sandboxes, known versus unknown unknowns, stable-domain paradigm comparison, one-axis struggle, and illustrative weekly allocation. |
-| 583-832 | E | Controlled FAFO, one-variable experiments, prediction-observation mismatch, boundary and pathological cases, invariant-first probing, and final experiment protocol. |
-| 833-1029 | E, R, I | Cursor/system-prompt restatement: understanding, primitive-first learning, adversarial review, invariants, separation of concerns, production thinking, explanation, default workflow, and closing customization offer. Retained as compressed agent behavior, not a separate mechanism set. |
+| 1-10 | E, C | Learner asks how to develop senior judgment in an AI-amplified workflow. |
+| 11-273 | E, C, U | Senior leverage, adjacent unknowns, mental simulation, explain-back, comparative taste, failure-rich domains, constraint artifacts, intuition before delegation, and rewrite-from-scratch overstatement. |
+| 274-652 | E, R | Concurrent cognitive load, implementation/guided-exploration/adversarial modes, primitive-first sandboxes, known versus unknown unknowns, stable-domain paradigm comparison, one-axis struggle, and illustrative allocation. |
+| 653-1005 | E | Restored learner-authored FAFO loop, controlled chaos, primitive isolation, one-variable experiments, prediction-observation mismatch, boundary and pathological cases, invariant-first probing, and documented model updates. |
+| 1006-1269 | E, R, I | Restored request for a Cursor rule and its operational restatement: primitive-first learning, adversarial review, invariants, controlled experiments, separation of concerns, learner-owned architecture decisions, production thinking, and explanation. |
 
 ## S07: Learning With AI
 
@@ -133,11 +149,11 @@ Source note: [S08](sources/S08-vscode-extension-guide.md)
 
 | Lines | Disposition | Discussion covered |
 | --- | --- | --- |
-| 1-10 | N | Export metadata. |
-| 11-273 | I, C | Initial extension architecture, V0 scope, runtime choices, Rust test-bed decision, staged implementation, and build order. Analyzed as product context and scope discipline. |
-| 274-518 | E, C | Pit-of-excellence framing, compact model-repair rounds, integration rounds, revisit, transfer, guardrails, engine inputs/outputs, Rust ownership example, and short-term plan. |
-| 519-779 | E, U | Hunger, identity, time-to-insight, visible progress, edge tension, self-confrontation, micro-wins, intensity, and burnout cautions. Earned capability retained; engineered obsession and unsupported neuroscience rejected. |
-| 780-1061 | E, U | Operational excellence, pressure/exposure/correction/reinforcement layers, compounding through predictions and transfer, fluid cognition, guardrails, agent contract, and product conclusion. Threat, compulsion, and identity dependence are excluded. |
+| 1-10 | E, I | Learner proposes Socrates, a VS Code understanding agent and Rust-learning test bed, while reporting architecture confusion. |
+| 11-296 | I, C | Hosted-plugin mental model, extension primitives, narrow end-to-end V0, Rust/TypeScript split, abstraction deferral, staged implementation, interaction-heavy product framing, and exact first move. |
+| 297-561 | E, C | Pit-of-excellence framing, compact repair rounds, integration, delayed revisit, feedback density, transfer patterns, guardrails, engine inputs/outputs, ownership example, and reliable-insight objective. |
+| 562-838 | E, U | Restored demand for an environment that propels engagement; identity, time-to-insight, visible growth, edge tension, self-confrontation, micro-wins, burnout, dependence, and healthy earned-capability boundary. |
+| 839-1152 | E, U | Restored craft-environment request; operational definition of excellence, pressure/exposure/correction/reinforcement, transferable failure patterns, fluid cognition, agent contract, and product conclusion. Compulsion and unsupported biology remain excluded. |
 
 ## S09: Socrates Product Exploration
 
@@ -168,10 +184,11 @@ Source note: [S10](sources/S10-forking-and-cloning-workflow.md)
 
 | Lines | Disposition | Discussion covered |
 | --- | --- | --- |
-| 1-336 | E, C | Git contribution workflow taught through omitted-step inversion, failure simulation, first-principles mental model, mistake tree, compression, and context-dependent necessity. |
-| 337-629 | C, U | Labor-market, industry, and education speculation; skill as understanding/directing/validating; system-depth and value-creation advice. Retained only as context for why judgment matters. |
-| 630-829 | E, C, U | AI capability-gap compounding, feedback advantage, confidence from understanding, mental-model speed, reality debugging, and risk of passive consumption. Broad socioeconomic predictions are not treated as system laws. |
-| 830-988 | E, R, I | Cursor rule encoding learner ownership, explanations before code, small hints, production-quality critique, adaptive domain use, and usage examples. Duplicates later agent contracts but supplies a concise programming adapter. |
+| 1-10 | E, C | Learner asks to understand a Git contribution workflow by inverting each step and tracing failure. |
+| 11-353 | E, C | Normal workflow, omitted-step failure simulation, permission/isolation/transport/review responsibilities, compression, symptom tree, and context-dependent necessity of forks. |
+| 354-697 | C, U | AI and work speculation, structured symbolic tasks, augmentation, system understanding, product value, adaptive education, active versus passive use, industry timelines, and future skill framing. Retained contextually; forecasts are not system laws. |
+| 698-921 | E, C, U | Restored capability-gap claim, AI amplification, compounding versus resetting feedback loops, confidence-driven experimentation, mental-model speed, reality debugging, and outsourcing risk. Literal power-law claims remain unsupported. |
+| 922-1129 | E, R, I | Restored Cursor-rule request and agent behavior: current model, prediction, chosen friction, edge cases, progressive hints, compressed rules, experiments, unaided prediction, and usage examples. |
 
 ## S11: Learning System for tRPC
 
@@ -179,10 +196,11 @@ Source note: [S11](sources/S11-learning-system-for-trpc.md)
 
 | Lines | Disposition | Discussion covered |
 | --- | --- | --- |
-| 1-273 | E, C | Unfamiliar-library overload, concept dissection, API grounding by type shape, overload selection, post-facto crystallization, senior pattern recognition, and a three-moment workflow. |
-| 274-515 | E, I | Model checkpoints, model delta rather than explanation, mental-model debugger, pressure test, and product framing. |
-| 516-794 | C, E, U | Effect-specific explanation of `Effect.gen`, channels, generators, `yield*`, anti-patterns, and analogy. Domain details are illustrative and may require technical verification; anchor-and-delta behavior is extracted. |
-| 795-1031 | E | Invariant learning loop, target versus retrieval friction, AI's evidence-retrieval role, cognitive-load budget, exact source/API grounding, final abstraction-level framing, and the principle that AI protects model-building bandwidth. |
+| 1-10 | E, C | Learner describes learning unfamiliar libraries while building and asks for rapid fundamental/API model formation. |
+| 11-258 | E, C | Concurrent unknowns, orientation, API shape and constraints, overload generalization, crystallization, workflow, and senior constraint-first pattern recognition. |
+| 259-537 | E, I | Iterative convergence, explicit model checkpoints, mental-model debugger, model delta rather than full explanation, product framing, and pressure test. |
+| 538-865 | C, E, U | Restored learner model of `Effect.gen` and worked repair covering purpose, channels, generators, `yield*`, analogy boundaries, anti-patterns, and the instructional reflection. Technical claims remain illustrative pending verification. |
+| 866-1152 | E | Restored direct cognitive-ergonomics contract, invariant build/repair loop, target versus retrieval friction, AI as environment, decision boundary, context reconstruction, cognitive-load budget, code-to-invariant distance, and final scope. |
 
 ## S12: Energy and Engagement
 
@@ -229,11 +247,11 @@ Source note: [S16](sources/S16-friction-avoidance-hell.md)
 
 | Lines | Disposition | Discussion covered |
 | --- | --- | --- |
-| 1-10 | N | Export metadata. |
-| 11-232 | E, C, U | Personal avoidance loop, courses/planning/screens as escape, external structure, just-in-time learning, small end-to-end project, artifact metrics, initial Cursor contract, and punitive cadence proposals. |
-| 233-470 | E, C | Senior attempt-failure-repair loop, docs and AI usage, problem-first library orientation, core primitives, smallest wrong version, shipping versus learning modes, and return to the artifact. |
-| 471-621 | E, I, U | Meta-narrative system prompt, ownership, evidence-based debugging, targeted scaffolds, rebuild/teach-back proof, and usage rules. Fixed prompt limits remain contextual. |
-| 622-790 | E, I, U | Growth-compounding prompt, step selection by reusable judgment, system boundaries, state/data flow/lifecycle, artifact progress plus capability growth, final responsibility, and concrete-close reminder. Absolute anti-theory or no-zero-day rules are rejected. |
+| 1-10 | E, C | Learner's direct account of long-term friction avoidance and request for an AI contract that preserves cognitive work while removing incidental friction. |
+| 11-224 | E, C, U | Avoidance feedback loop, external structure, just-in-time application, initial mentor prompt, small end-to-end project, artifact metric, sustained discomfort, and punitive cadence proposals. |
+| 225-492 | E, C | Attempt-failure-repair loop, docs and AI as maps/amplifiers, first-principles example, problem-first library orientation, core primitives, smallest wrong version, shipping/learning modes, and clarity-through-building. |
+| 493-568 | E, I, U | Restored request for a meta-narrative prompt and resulting ownership, minimal assistance, Socratic guidance, product grounding, debugging, accountability, and rebuild/teach-back criteria. Fixed prompt constraints remain contextual. |
+| 569-636 | E, I | Restored learner-authored compounding requirement and compact growth-sequencing prompt: reusable concepts, boundaries, state/data flow/lifecycle, only cognitive friction, AI-interpreted references, artifact progress, and future-project leverage. |
 
 ## Verification Limits
 

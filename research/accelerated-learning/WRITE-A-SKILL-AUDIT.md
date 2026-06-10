@@ -20,6 +20,8 @@ The first drafts were reviewed against user feedback. Revisions added:
 - Development and research modes
 - Mandatory composition between path design and model repair
 - Per-step compounding and pit-of-success tests
+- Protected first-move diagnosis
+- Grounded threshold mining and representation rotation
 - Concrete examples
 - Narrower research triggering
 - Consistent `path step` terminology
@@ -30,7 +32,7 @@ The first drafts were reviewed against user feedback. Revisions added:
 | --- | --- | --- |
 | Description includes `Use when` triggers | Pass | Pass |
 | Description is third person and under 1024 characters | 463 characters | 320 characters |
-| `SKILL.md` is under 100 lines | 99 lines | 98 lines |
+| `SKILL.md` is under 100 lines | 99 lines | 99 lines |
 | No time-sensitive information | Pass | Pass |
 | Consistent terminology | `path`, `path step`, `model transition` | `path`, `path step`, `model transition` |
 | Concrete examples included | `EXAMPLES.md`: development and research | `EXAMPLES.md`: research path and development micro-path |

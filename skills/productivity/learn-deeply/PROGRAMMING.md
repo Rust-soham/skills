@@ -61,6 +61,8 @@ allowing bounded curiosity probes.
 - **Elevate:** the broader problem generating several symptoms.
 - **Enable:** a preparatory change that permits the target experiment.
 - **Ground:** claims in source, types, tests, or runtime evidence.
+- **Rotate:** represent the same behavior through another abstraction, diagram,
+  trace, type shape, or executable form to expose an invariant.
 
 ## Project or Sandbox
 

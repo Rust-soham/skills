@@ -48,12 +48,19 @@ A belief record needs:
 - Last verification
 - Transfer evidence
 
+### Bifocal Model Comparator
+
+Compares learner evidence with the domain graph to identify the smallest
+high-leverage belief transition. It keeps learner placement, domain truth, and
+candidate diagnosis distinct.
+
 ### Domain Model
 
 Stores:
 
 - Prerequisite relations
 - High-leverage thresholds
+- Candidate thresholds and their grounding status
 - Invariants
 - Common limiting models
 - Candidate collisions
@@ -62,11 +69,19 @@ Stores:
 It is independent from the learner model. The learner may reach the same domain
 node through a different misconception path.
 
+### Threshold Miner
+
+When the domain graph is incomplete, compares varied cases, strips surface
+differences, rotates representations, and proposes invariants that could explain
+multiple cases. Its outputs remain hypotheses until grounded in domain evidence
+and verified through changed learner behavior.
+
 ### Diagnostic Engine
 
 Infers candidate beliefs from a learner response and ranks the most upstream
-gap. It must expose uncertainty instead of pretending to read the learner's
-mind.
+gap. It separately checks the object-level domain model and the meta-level
+reasoning process. It must expose uncertainty instead of pretending to read the
+learner's mind.
 
 ### Curriculum Planner
 
@@ -89,7 +104,14 @@ cannot survive.
 ### Interaction Controller
 
 Enforces prediction gates, progressive hints, learner response, and appropriate
-silence during productive work.
+silence during productive work. It protects the learner's first hypothesis or
+interpretation while allowing the agent to choose the diagnostic situation.
+
+### Feedback Loop Controller
+
+Reduces randomness, isolates one changing variable, shortens evidence latency,
+and detects when repetition is aimed at the wrong bottleneck. It optimizes
+informative iterations, not interaction count.
 
 ### Evaluator
 

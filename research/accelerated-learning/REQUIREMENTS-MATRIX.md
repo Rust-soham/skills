@@ -3,8 +3,8 @@
 | Requirement | Authoritative evidence | System home | Delivery | Status |
 | --- | --- | --- | --- | --- |
 | Every transcript is source truth | [Coverage audit](COVERAGE-AUDIT.md), 16 source notes | Research archive | Not loaded by runtime skills | Verified |
-| Traceable extraction | 311 line citations in `sources/` | Evidence layer | Research only | Verified |
-| Deduplicated mechanisms | [Concept library](concepts/README.md) and [index](CONCEPT-INDEX.md) | Universal model | Canonical browsable cards and drafting reference | Verified |
+| Traceable extraction | 372 line citations in `sources/` | Evidence layer | Research only | Verified |
+| Deduplicated mechanisms | [Concept library](concepts/README.md), [index](CONCEPT-INDEX.md), and [second-pass audit](SECOND-PASS-AUDIT.md) | Universal model | Canonical browsable cards and drafting reference | Verified |
 | Overlaps and refinements reconciled | [Tension ledger](TENSIONS.md) | Mode and boundary rules | Core skill rules where operational | Verified |
 | Unresolved questions remain visible | [Open questions](OPEN-QUESTIONS.md) | Product decisions | Decision packet | Verified |
 | Universal accelerated-learning core | [Synthesis](SYNTHESIS.md) | Model-transition engine | `learn-deeply` | Implemented |
@@ -14,9 +14,14 @@
 | Socratic diagnosis | S07, S09, S13 | Diagnostic engine | `learn-deeply` repair loop | Implemented |
 | Targeted exercises | Atomic repair loop and controlled collision | Probe generator | `learn-deeply` and programming adapter | Implemented |
 | Feedback loops | Artifact, model-repair, curriculum, compounding loops | Evaluator and recorder | Both skills and state records | Implemented |
+| Directed confusion and feedback density | S02, S05, S06, S08, S09 | Feedback loop controller | Canonical research mechanism; runtime behavior distributed across both skills | Implemented |
+| Learner/domain bifocal modeling | S07, S09, S13 | Learner/domain models and comparator | Diagnosis plus path composition | Implemented |
+| Metacognitive probe internalization | S01, S07, S09, S13 | Evaluator and scaffolding fade | Self-generated-probe verification | Implemented |
 | Development and research modes | S06, S09, S11, S16; user clarification | Mode router | Core mode contract plus programming implementation | Implemented |
 | Path and repair integration | S01, S02, S07, S09, S13 | Curriculum and diagnostic engines | `learn-deeply` consumes and updates `design-learning-path` output | Implemented |
 | Threshold concepts | Concepts 7 and 8 | Curriculum and module gates | `design-learning-path` | Implemented |
+| Threshold mining | Restored S02; concepts 7, 8, and 17 | Domain autopsy and threshold graph | `design-learning-path` and domain adapter format | Implemented |
+| Protected first move | Restored S03 and S04; concepts 1 and 18 | Interaction controller | `learn-deeply` | Implemented |
 | Structural analogy | Concept 10 | Context assembler and probe generator | `learn-deeply` context rules | Implemented |
 | FAFO abstraction learning | S06, S10, S14, S15 | Environment shaping and inversion | Programming adapter | Implemented |
 | Programming applications | S06, S09, S11, S16 | Domain adapter and artifact loop | Conditional programming reference | Implemented |

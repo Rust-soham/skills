@@ -18,6 +18,7 @@ progress. First reduce irrelevant load; reveal the target model last.
 
 Other load-reduction tools:
 
+- Remain silent while the learner is producing useful evidence.
 - Name what to ignore.
 - Retrieve exact evidence.
 - Provide a skeleton.
@@ -37,6 +38,7 @@ Other load-reduction tools:
 
 - No-full-solution is not an absolute rule.
 - Rescue mode may skip the ladder.
+- Do not interrupt productive confusion or flow merely to display instruction.
 - Scaffolding must later be tested without the scaffold.
 
 ## Sources
@@ -50,6 +52,7 @@ Other load-reduction tools:
 ## Related
 
 [Chosen Friction](02-chosen-friction.md),
+[Directed Confusion](20-directed-confusion-and-feedback-density.md),
 [Dynamic AI Modes](13-dynamic-ai-mode-and-delegation-boundary.md),
 [No full solutions tension](../TENSIONS.md#10-no-full-solutions-vs-adaptive-delegation).
 

@@ -10,15 +10,15 @@ Status: cross-checked
 
 The user reports recurring slow initial progress followed by abrupt gains after
 fundamentals align, using badminton as the immediate example
-([11-14](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L11)).
+([3-5](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L3)).
 
 The response models this as hidden accumulation of subskills followed by a
 visible threshold when they coordinate
-([46-93](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L46)).
+([47-110](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L47)).
 
 `SOURCE`: The relevant personal traits are tolerance for appearing bad,
 correctness over ego, delayed gratification, and sustained fundamentals
-([115-159](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L115)).
+([135-173](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L135)).
 
 `QUESTION`: The source overstates this as a fixed "learning personality." The
 useful evidence is the observed pattern and preference, not a permanent learner
@@ -33,11 +33,11 @@ The proposed help ladder is:
 3. Partial code or skeleton
 4. Full solution as last resort
 
-([215-259](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L215))
+([250-303](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L250))
 
 Before implementation help, ask for the learner's approach so they remain the
 architect rather than a reviewer of completed work
-([301-320](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L301)).
+([357-375](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L357)).
 
 A task loop:
 
@@ -47,35 +47,35 @@ A task loop:
 4. AI supplies narrow mechanical help.
 5. AI critiques the result.
 
-([323-384](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L323))
+([379-451](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L379))
 
 The agent should sometimes disagree or present alternatives to force
 justification, not to seize the decision
-([449-463](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L449)).
+([526-541](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L526)).
 
 ### Delegation Threshold
 
 `SOURCE`: Familiarity should increase how much execution can be delegated, but
 not how much understanding is abandoned. The meaningful measure is how much of
 the system the learner can mentally simulate
-([388-416](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L388)).
+([455-488](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L455)).
 
 The source proposes output judgment as a senior signal: detecting fragility,
 overengineering, and contextual fitness quickly
-([420-445](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L420)).
+([492-522](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L492)).
 
 ### Compressing the Slow Phase
 
 `REFINEMENT`: The agent cannot remove the model-building phase. It can compress
 time spent in undirected confusion
-([518-534](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L518)).
+([588-622](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L588)).
 
 The target is **speed of correct realization**, not generic speed of learning
-([538-546](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L538)).
+([626-655](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L626)).
 
 The source calls the desired state **structured confusion**: guiding attention
 toward the right struggle
-([567-601](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L567)).
+([659-699](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L659)).
 
 Three compression levers:
 
@@ -83,7 +83,7 @@ Three compression levers:
 2. **Increase feedback clarity** by naming exact conditions and failure modes.
 3. **Force correct focus** by removing currently irrelevant material.
 
-([604-657](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L604))
+([701-763](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L701))
 
 For this learner specifically:
 
@@ -91,29 +91,34 @@ For this learner specifically:
 - Increase feedback iterations per hour
 - Detect practice-target misalignment early
 
-([692-735](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L692))
+([801-850](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L801))
 
 When stuck, the agent should identify the current struggle, narrow focus, state
 what to ignore, and offer one small next action
-([738-748](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L738)).
+([853-865](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L853)).
 
 ### Clicks Are Evidence, Not Targets
 
 The user strongly desires recurring step-function gains
-([804-806](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L804)).
+([931-935](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L931)).
 
 The response warns against optimizing for intensity and breakthroughs rather
 than process. Clicks are side effects of fundamentals, confusion, repeated
 adjustment, and eventual compression
-([818-888](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L818)).
+([939-1053](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L939)).
 
 The desired unit is a high-quality repetition inside confusion, not the
 breakthrough feeling itself
-([910-967](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L910)).
+([1057-1125](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L1057)).
 
 `REFINEMENT`: Treat visible breakthroughs as checkpoints that validate the
 process, not events to manufacture directly
-([988-1004](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L988)).
+([1149-1165](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L1149)).
+
+The final grounding returns to fundamentals, intelligent repetition, tolerance
+for invisible progress, and remaining in contact with the process rather than
+seeking shortcuts
+([1168-1199](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L1168)).
 
 ### Signals and Metrics
 
@@ -126,7 +131,7 @@ process, not events to manufacture directly
 
 The source's strongest metric is the speed with which the learner identifies
 what they do not understand
-([751-771](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L751)).
+([870-895](../../../transcripts/Delayed%20Growth%2C%20Exponential%20Jump.md#L870)).
 
 ### Failure Modes
 

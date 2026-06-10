@@ -74,6 +74,7 @@ One record represents one accepted learning unit:
 
 - Context and target capability
 - Old model
+- Learner's first hypothesis, interpretation, or prioritization
 - Prediction or attempted action
 - Probe or event
 - Observation
@@ -136,6 +137,7 @@ Ephemeral until verified:
 
 - Mode
 - Elicited model
+- First move
 - Prediction
 - Candidate diagnosis
 - Probe

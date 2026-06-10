@@ -35,9 +35,11 @@ Sources:
 [S07](sources/S07-learning-with-ai.md),
 [S13](sources/S13-threshold-unlocks.md).
 
-**Resolution:** AI may select the situation before the learner has an answer,
-but should not supply the learner's model. The learner must interpret, predict,
-or attempt before the reveal.
+**Resolution:** AI may select the situation, retrieve minimum orientation, or
+ask the first question before the learner has an answer. It should preserve an
+interpretation window: the learner supplies the first hypothesis, prediction,
+prioritization, or attempted reconstruction before explanatory closure when
+safe.
 
 **Status:** Synthesized.
 

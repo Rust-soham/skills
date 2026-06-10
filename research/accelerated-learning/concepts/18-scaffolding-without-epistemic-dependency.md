@@ -8,6 +8,13 @@ External tools can increase output while weakening internal navigability.
 Therefore, successful orchestration and genuine understanding must be measured
 separately.
 
+Dependency can appear before task failure:
+
+- The learner stops making an initial hypothesis.
+- Partial thoughts feel untrustworthy until externally validated.
+- Immediate closure replaces sustained synthesis.
+- Successful output no longer feels authored or reconstructable.
+
 ## Dependency Tests
 
 After scaffolded success, require one or more:
@@ -37,6 +44,8 @@ Never manufacture remembered history, learner confusion, or progress.
 - Scaffolding is not the enemy; untested dependency is.
 - Independent verification need not mean memorizing retrievable details.
 - Delegation is valid when the learner retains auditability and recovery.
+- AI may initiate a diagnostic situation, but it should preserve an
+  interpretation window in which the learner makes the first cognitive move.
 
 ## Sources
 

@@ -1,5 +1,36 @@
 # Operational Heuristics
 
+## First Move and Interpretation Window
+
+AI may choose the question, retrieve prerequisite facts, or construct the
+diagnostic situation. When safe, it should pause before supplying its own model
+and ask the learner for one first cognitive commitment:
+
+- A hypothesis
+- A prediction
+- A prioritization
+- An explanation
+- A design choice
+- An attempted reconstruction
+
+Do not demand a complete model. A rough first move is enough to expose the
+direction of thought.
+
+Skip or shorten the window when:
+
+- Safety or production urgency requires immediate action
+- The task is declared execution or retrieval rather than learning
+- The learner lacks the minimum orientation to form a meaningful attempt
+- Repeated attempts no longer produce diagnostic evidence
+
+After scaffolded success, return to an unscaffolded prediction or reconstruction
+before treating the capability as owned.
+
+Evidence:
+[S03 path dependence](sources/S03-ai-and-cognitive-softness.md#refinements-and-tensions),
+[S04 cognition boundary](sources/S04-cognitive-scaffolding-shift.md#cognition-boundary),
+[S11 cognitive ergonomics](sources/S11-learning-system-for-trpc.md#cognitive-ergonomics).
+
 ## Project to Sandbox
 
 Stay in the real artifact while it produces clear, safe evidence.

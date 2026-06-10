@@ -15,6 +15,9 @@ model can produce clear evidence.
 - **Enable:** make a preparatory change that permits the target action.
 - **Ground:** replace prose guesses with source, types, tests, runtime, or other
   observable evidence.
+- **Rotate:** express the same structure through another representation,
+  abstraction level, or coordinate system so a hidden invariant becomes
+  visible.
 
 ## Selection
 
@@ -28,6 +31,8 @@ Examples:
 - Elevate repeated local fixes into one lifecycle question.
 - Add observability before debugging.
 - Prefactor a knot before asking the learner to reason about it.
+- Compare a workflow, diagram, equation, and executable case that encode the
+  same relation.
 
 ## Boundaries
 
@@ -38,6 +43,7 @@ Examples:
 
 ## Sources
 
+[S02](../sources/S02-elite-hacker-roadmap.md),
 [S06](../sources/S06-ai-in-dev-workflows.md),
 [S11](../sources/S11-learning-system-for-trpc.md),
 [S14](../sources/S14-thdxr-post.md),

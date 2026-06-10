@@ -50,6 +50,7 @@ last verification. Use `candidate -> verified -> challenged -> superseded`.
 
 ## Sources
 
+[S02](../sources/S02-elite-hacker-roadmap.md),
 [S04](../sources/S04-cognitive-scaffolding-shift.md),
 [S07](../sources/S07-learning-with-ai.md),
 [S08](../sources/S08-vscode-extension-guide.md),

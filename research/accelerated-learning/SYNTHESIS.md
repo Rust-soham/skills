@@ -14,6 +14,9 @@ or immediate completion. It optimizes how quickly the learner can:
 - Apply the repaired model in a novel case
 - Generate the next useful question without the system
 
+This is speed of correct realization: high-information model updates with
+minimal undirected confusion, not raw interaction or attempt volume.
+
 ## Core Invariant
 
 The learner owns model construction.
@@ -30,6 +33,7 @@ AI may:
 
 AI should not silently own:
 
+- The learner's first hypothesis, interpretation, or prioritization
 - The learner's prediction
 - The causal diagnosis
 - The model transition
@@ -79,7 +83,8 @@ Used for deliberate mastery:
 8. Reflect on how the model changed.
 
 The curriculum chooses transformations by leverage dependency, not by topic
-order alone.
+order alone. When the threshold graph is incomplete, compare varied cases,
+rotate representations, and mine candidate invariants before sequencing them.
 
 ### 4. Compounding Loop
 
@@ -203,7 +208,19 @@ Use a minimal applied task that reveals:
 - Whether prerequisites are sufficient
 - Whether the blocker is conceptual, mechanical, or behavioral
 
+Reason bifocally:
+
+- Compare the learner's evidenced representation with the domain's primitives,
+  dependencies, thresholds, and target capability.
+- Diagnose both the object-level model gap and any recurring meta-level process
+  that produced or concealed it.
+
 Treat prior learner state as a hypothesis until current evidence confirms it.
+
+Protect the first move. The agent may frame the situation, retrieve the
+necessary evidence, or choose the diagnostic task, but the learner should make
+the first hypothesis, prediction, interpretation, or attempted reconstruction
+before explanatory closure when safe.
 
 ### 4. Choose the Next Transformation
 
@@ -214,10 +231,21 @@ Prefer the reachable step that:
 - Preserves artifact momentum in development mode
 - Changes one important variable
 - Can be verified through learner action
+- Produces a short, clear feedback loop against the actual bottleneck
 
 Use the curriculum planner to supply the active path edge. An isolated repair
 may use a one-edge path. Development uses a minimum blocker-to-artifact
 micro-path; research uses a broader threshold path toward generative capability.
+
+When no trusted threshold is available:
+
+1. Collect surface-different cases.
+2. Strip incidental representation.
+3. Identify current primitives and limiting explanations.
+4. Rotate representation or abstraction level.
+5. Propose the invariant that survives.
+6. Ground it in domain evidence and test whether it generates unseen
+   predictions.
 
 ### 5. Prefactor the Environment
 
@@ -229,6 +257,7 @@ Before increasing difficulty:
 - Add observability
 - Move to a safe sandbox if needed
 - Supply the minimum missing prerequisite
+- Rotate the representation when the current coordinates hide the relation
 - Provide a high-quality comparison target when taste is the learning objective
 
 Use [OPERATIONAL-HEURISTICS.md](OPERATIONAL-HEURISTICS.md) to define sandbox
@@ -244,6 +273,8 @@ A strong probe:
 - Produces inspectable evidence
 - Uses real project context when it improves signal
 - Avoids real project context when it adds confounding noise
+- Gives the learner enough room to interpret before assistance interrupts
+- Preserves a first-move window before the system supplies its own model
 
 Available operators:
 
@@ -290,6 +321,9 @@ Verify through one or more:
 - Build or repair task
 - Transfer to another context
 - Learner-generated diagnostic question
+
+When the learner can generate and justify the next discriminating probe,
+external question generation should begin to recede for that pattern.
 
 ### 10. Persist Selectively
 

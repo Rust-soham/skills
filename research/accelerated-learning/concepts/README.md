@@ -1,6 +1,6 @@
 # Concept Library
 
-Canonical cards for the 19 concepts deduplicated from the transcript corpus.
+Canonical cards for the 22 concepts deduplicated from the transcript corpus.
 Use the cards for later design work; use `../sources/` when exact transcript
 evidence or source-specific nuance is needed.
 
@@ -33,6 +33,9 @@ Status meanings:
 | 17 | [Environment Transformations](17-environment-transformations.md) | Candidate operators | Reshapes difficulty before adding help |
 | 18 | [Scaffolding Without Epistemic Dependency](18-scaffolding-without-epistemic-dependency.md) | Core | Distinguishes output from understanding |
 | 19 | [Comparative Taste and Constraint Artifacts](19-comparative-taste-and-constraint-artifacts.md) | Core for build missions | Develops judgment |
+| 20 | [Directed Confusion and Feedback Density](20-directed-confusion-and-feedback-density.md) | Core | Compresses undirected model-building time |
+| 21 | [Bifocal Learner and Domain Modeling](21-bifocal-learner-and-domain-modeling.md) | Core | Aligns learner evidence with expert structure |
+| 22 | [Metacognitive Probe Internalization](22-metacognitive-probe-internalization.md) | Core | Transfers question generation to the learner |
 
 ## Supporting Maps
 
@@ -40,4 +43,5 @@ Status meanings:
 - [Tension ledger](../TENSIONS.md)
 - [System synthesis](../SYNTHESIS.md)
 - [Transcript coverage audit](../COVERAGE-AUDIT.md)
+- [Second-pass omission audit](../SECOND-PASS-AUDIT.md)
 - [Implementation validation](../VALIDATION.md)

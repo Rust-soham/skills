@@ -21,9 +21,14 @@ The learner must produce, test, and revise the mental model. AI may choose the
 environment, retrieve evidence, and design probes, but borrowed conclusions are
 not the target.
 
+Protect the first move: the agent may select the situation, but the learner
+should supply the first hypothesis, prediction, interpretation, prioritization,
+or attempted reconstruction when safe.
+
 Evolution:
 
-- S03 and S04 define the cognition boundary.
+- S03 and S04 define the cognition boundary and path dependence of outsourcing
+  the first move.
 - S05 and S06 make assistance and delegation adaptive.
 - S07 makes AI an active Socratic probe designer.
 - S09 and S13 define the terminal state as self-probing and independent model
@@ -183,6 +188,11 @@ An unlock is a model transition that reorganizes perception, compresses prior
 facts, reveals new relations, and enables novel action. It often replaces a
 locally useful but limiting model rather than a simply false one.
 
+Candidate thresholds can be mined by comparing surface-different cases,
+stripping incidental representation, identifying primitives, rotating the
+coordinate system, and asking which invariant survives. Treat the result as a
+hypothesis until grounded and generatively verified.
+
 Exercise-scale transition:
 
 `baseline -> near-boundary -> breaking case -> minimal reframe -> novel
@@ -334,7 +344,7 @@ Local mission or project state:
 Domain adapter state:
 
 - Primitives and prerequisites
-- Threshold graph
+- Threshold graph and candidate thresholds with grounding status
 - Common misconceptions
 - Failure modes and executable probes
 - Verification criteria
@@ -405,6 +415,7 @@ Before increasing difficulty, change the environment:
 - **Elevate** to the broader problem generating several symptoms.
 - **Enable** the target through a preparatory change.
 - **Ground** claims in source, types, tests, or runtime evidence.
+- **Rotate** the representation or abstraction level to expose an invariant.
 
 These operations reduce incidental complexity while preserving the target
 model-building work.
@@ -423,6 +434,10 @@ External tools can increase output while weakening internal navigability. The
 system must therefore distinguish successful orchestration from understanding
 and periodically require prediction, reconstruction, judgment, or recovery
 without the scaffold.
+
+Protect an interpretation window before assistance supplies closure. Early
+dependency may appear as loss of first hypotheses, distrust of partial thought,
+or output that cannot be reconstructed or felt as authored.
 
 The same trust rule applies to learner context: retrieved state, current
 conversation evidence, and inference must remain distinguishable. The agent
@@ -447,3 +462,69 @@ Sources:
 [S02](sources/S02-elite-hacker-roadmap.md),
 [S06](sources/S06-ai-in-dev-workflows.md),
 [S09](sources/S09-socrates-product-exploration.md).
+
+## 20. Directed Confusion and Feedback Density
+
+**Status:** Core
+
+The unavoidable model-building phase can be compressed by directing attention
+to the correct struggle and increasing clear, causally interpretable feedback.
+Useful density comes from less randomness, one-variable experiments, precise
+prediction-outcome comparison, short loops, and early detection that practice
+is aimed at the wrong bottleneck.
+
+More attempts are not inherently better. Each iteration must produce evidence
+about the target model while preserving learner-owned prediction and repair.
+Clicks and breakthroughs are checkpoints, not the optimization target.
+
+Compounding loops turn each failure into connected structure. Resetting loops
+consume, copy, get stuck, and switch context before errors become reusable.
+AI can accelerate either one.
+
+Sources:
+[S01](sources/S01-actual-roadmap.md),
+[S02](sources/S02-elite-hacker-roadmap.md),
+[S05](sources/S05-delayed-growth.md),
+[S06](sources/S06-ai-in-dev-workflows.md),
+[S08](sources/S08-vscode-extension-guide.md),
+[S09](sources/S09-socrates-product-exploration.md),
+[S10](sources/S10-forking-and-cloning-workflow.md),
+[S12](sources/S12-energy-and-engagement.md).
+
+## 21. Bifocal Learner and Domain Modeling
+
+**Status:** Core
+
+The tutor must simultaneously represent the learner's evidenced beliefs and the
+domain's expert dependency or threshold structure. Comparing the two identifies
+the smallest high-leverage belief transition.
+
+Learner-only simulation can mirror confusion without direction. Expert-only
+instruction can select the right concept at the wrong level. The structures
+remain separate, mutable, and evidence-backed; they do not require separate
+agents.
+
+Sources:
+[S02](sources/S02-elite-hacker-roadmap.md),
+[S07](sources/S07-learning-with-ai.md),
+[S09](sources/S09-socrates-product-exploration.md),
+[S11](sources/S11-learning-system-for-trpc.md),
+[S13](sources/S13-threshold-unlocks.md).
+
+## 22. Metacognitive Probe Internalization
+
+**Status:** Core
+
+Learning compounds when the learner moves from answering agent-generated probes
+to generating diagnostic questions that distinguish models, expose assumptions,
+and specify what evidence would change their mind.
+
+The system diagnoses both the subject-matter gap and the reasoning or
+help-seeking process that produced it. External question generation should fade
+where the learner demonstrates transferable self-probing.
+
+Sources:
+[S01](sources/S01-actual-roadmap.md),
+[S07](sources/S07-learning-with-ai.md),
+[S09](sources/S09-socrates-product-exploration.md),
+[S13](sources/S13-threshold-unlocks.md).

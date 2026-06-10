@@ -18,7 +18,9 @@ conclusions are not the learning target.
 
 ## Operational Consequences
 
-- Require learner cognition before revealing the target model when safe.
+- Protect the learner's first move when safe: AI may frame the situation or ask
+  the question, but the learner supplies the first hypothesis, prediction,
+  prioritization, interpretation, or attempted reconstruction.
 - Separate successful orchestration from internal understanding.
 - Treat prediction, causal diagnosis, judgment, and transfer as ownership
   evidence.
@@ -33,9 +35,10 @@ conclusions are not the learning target.
 
 ## Evolution
 
-S03 and S04 define the cognition boundary. S05 and S06 make assistance
-adaptive. S07 adds Socratic probe design. S09 and S13 make self-probing and
-independent repair the terminal capability.
+S03 and S04 define the cognition boundary and show that outsourcing the first
+move is path-dependent. S05 and S06 make assistance adaptive. S07 adds
+Socratic probe design. S09 and S13 make self-probing and independent repair the
+terminal capability.
 
 ## Sources
 

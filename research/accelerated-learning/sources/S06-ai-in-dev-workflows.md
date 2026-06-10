@@ -54,7 +54,7 @@ because surface correctness is insufficient there
 
 The learner designs, AI implements known patterns, and the learner reviews.
 Suitable for syntax, boilerplate, and repetition
-([290-309](../../../transcripts/AI%20in%20Dev%20Workflows.md#L290)).
+([344-361](../../../transcripts/AI%20in%20Dev%20Workflows.md#L344)).
 
 #### Guided Unknown Exploration
 
@@ -64,21 +64,21 @@ For an unfamiliar tool or paradigm:
 2. Build an isolated toy.
 3. Investigate beginner mistakes, footguns, and production failures.
 
-([313-353](../../../transcripts/AI%20in%20Dev%20Workflows.md#L313))
+([365-412](../../../transcripts/AI%20in%20Dev%20Workflows.md#L365))
 
 #### Adversarial Learning
 
 After an unfamiliar attempt, ask for hidden assumptions, ignored edges,
 concurrency failures, scaling failures, and senior criticism. Reproduce and
 verify rather than merely accepting the list
-([357-373](../../../transcripts/AI%20in%20Dev%20Workflows.md#L357)).
+([416-437](../../../transcripts/AI%20in%20Dev%20Workflows.md#L416)).
 
 ### One Axis at a Time
 
 The major blocker is simultaneous cognitive load from learning a paradigm,
 architecting a system, implementing details, and debugging ecosystem behavior
-([248-269](../../../transcripts/AI%20in%20Dev%20Workflows.md#L248),
-[377-393](../../../transcripts/AI%20in%20Dev%20Workflows.md#L377)).
+([289-319](../../../transcripts/AI%20in%20Dev%20Workflows.md#L289),
+[441-461](../../../transcripts/AI%20in%20Dev%20Workflows.md#L441)).
 
 Strict sequence:
 
@@ -86,10 +86,10 @@ Strict sequence:
 2. Isolate it in a tiny sandbox.
 3. Integrate it into the product only after the model is usable.
 
-([397-433](../../../transcripts/AI%20in%20Dev%20Workflows.md#L397))
+([465-500](../../../transcripts/AI%20in%20Dev%20Workflows.md#L465))
 
 Compressed rule: struggle on one axis at a time
-([515-523](../../../transcripts/AI%20in%20Dev%20Workflows.md#L515)).
+([596-604](../../../transcripts/AI%20in%20Dev%20Workflows.md#L596)).
 
 ### Known vs Unknown Unknowns
 
@@ -97,14 +97,14 @@ Compressed rule: struggle on one axis at a time
 - Unknown unknowns: use adversarial prompts, postmortems, review, and alternate
   implementations. Repetition gradually exposes them.
 
-([436-467](../../../transcripts/AI%20in%20Dev%20Workflows.md#L436))
+([504-542](../../../transcripts/AI%20in%20Dev%20Workflows.md#L504))
 
 ### Stable Domain, Changing Paradigm
 
 Instead of repeatedly building unrelated systems, evolve one familiar system
 through multiple paradigms and constraints. Keeping the domain stable makes
 design differences legible and accelerates pattern matching
-([471-500](../../../transcripts/AI%20in%20Dev%20Workflows.md#L471)).
+([546-581](../../../transcripts/AI%20in%20Dev%20Workflows.md#L546)).
 
 This is a concrete mechanism for analogical comparison and controlled transfer.
 
@@ -114,15 +114,20 @@ The user defines their natural loop:
 
 `poke -> predict -> observe -> update model -> repeat`
 
-([564-573](../../../transcripts/AI%20in%20Dev%20Workflows.md#L564))
+([653-670](../../../transcripts/AI%20in%20Dev%20Workflows.md#L653))
+
+The restored user turn is primary evidence for the entire loop: play with one
+primitive, predict from the current model, limit-test it, observe the break, and
+repeat until the hidden order becomes legible
+([653-657](../../../transcripts/AI%20in%20Dev%20Workflows.md#L653)).
 
 `REFINEMENT`: Random experimentation becomes controlled chaos by isolating
 variables and stripping the system to one primitive
-([603-646](../../../transcripts/AI%20in%20Dev%20Workflows.md#L603)).
+([706-807](../../../transcripts/AI%20in%20Dev%20Workflows.md#L706)).
 
 Models form faster when one variable changes, signal exceeds noise, and feedback
 is immediate
-([684-694](../../../transcripts/AI%20in%20Dev%20Workflows.md#L684)).
+([811-823](../../../transcripts/AI%20in%20Dev%20Workflows.md#L811)).
 
 Known-unknown FAFO:
 
@@ -132,15 +137,15 @@ Known-unknown FAFO:
 4. Break it intentionally.
 5. Write the updated model.
 
-([697-717](../../../transcripts/AI%20in%20Dev%20Workflows.md#L697))
+([827-847](../../../transcripts/AI%20in%20Dev%20Workflows.md#L827))
 
 For unknown unknowns, AI suggests omitted edge cases and failures; the learner
 recreates them locally
-([721-740](../../../transcripts/AI%20in%20Dev%20Workflows.md#L721)).
+([851-875](../../../transcripts/AI%20in%20Dev%20Workflows.md#L851)).
 
 Senior FAFO begins by defining boundaries, invariants, valid transitions, and
 illegal states, then probing those edges
-([744-766](../../../transcripts/AI%20in%20Dev%20Workflows.md#L744)).
+([878-904](../../../transcripts/AI%20in%20Dev%20Workflows.md#L878)).
 
 Final protocol:
 
@@ -151,16 +156,48 @@ Final protocol:
 5. Test a pathological case
 6. Document the model update
 
-([770-796](../../../transcripts/AI%20in%20Dev%20Workflows.md#L770))
+([923-940](../../../transcripts/AI%20in%20Dev%20Workflows.md#L923))
 
 ### Model Quality Signal
 
 Growth is described as shrinking the mismatch between prediction and
 observation
-([770-781](../../../transcripts/AI%20in%20Dev%20Workflows.md#L770)).
+([908-919](../../../transcripts/AI%20in%20Dev%20Workflows.md#L908)).
 
 This is stronger than testing only whether the final output works: predictions
 make the learner's hidden model inspectable.
+
+### Cursor Rule Distillation
+
+The final branch turns the discussion into an operational agent contract
+([1006-1016](../../../transcripts/AI%20in%20Dev%20Workflows.md#L1006)).
+
+Its retained behaviors are:
+
+- Explain an unfamiliar abstraction through purpose, constraints, tradeoffs,
+  primitives, and a minimal sandbox before integration.
+- Critique hidden assumptions, edge cases, failure modes, scale, and
+  concurrency after non-trivial work.
+- Make sources of truth, invariants, illegal states, and idempotency explicit
+  before architecture-level implementation.
+- Require prediction, smallest-case testing, boundary testing, and intentional
+  breakage.
+- Keep a new paradigm separate from production complexity until its model is
+  usable.
+- Present architectural options and tradeoffs without making the decision
+  silently.
+- Verify that accepted code can be explained.
+
+([1030-1231](../../../transcripts/AI%20in%20Dev%20Workflows.md#L1030))
+
+The intended outcome is better judgment: detecting weak architecture,
+reasoning under failure, and evaluating generated code
+([1236-1247](../../../transcripts/AI%20in%20Dev%20Workflows.md#L1236)).
+
+`REFINEMENT`: Fixed line limits, always sandboxing before any integration, and
+always expanding production concerns are context-dependent. The invariant is to
+keep the target model inspectable and prevent unrelated complexity from
+obscuring its feedback.
 
 ### Failure Modes
 
@@ -189,7 +226,7 @@ than the later ownership criterion of simulation and validation. Exact
 reproduction may be unnecessary once delegation becomes legitimate.
 
 `QUESTION`: A fixed weekly percentage split is offered
-([527-537](../../../transcripts/AI%20in%20Dev%20Workflows.md#L527))
+([608-621](../../../transcripts/AI%20in%20Dev%20Workflows.md#L608))
 but appears illustrative, not a universal rule.
 
 `SYNTHESIS`: Local project learning needs access to real code and task context,

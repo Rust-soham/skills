@@ -14,7 +14,8 @@ increase the rate at which later competency can be acquired.
 ## Curriculum Sequence
 
 1. Autopsy the domain and expert perception.
-2. Identify primitives, invariants, prerequisites, and limiting models.
+2. Identify or mine primitives, invariants, prerequisites, limiting models, and
+   candidate threshold changes.
 3. Establish only the substrate needed for meaningful action.
 4. Choose the highest-leverage reachable threshold.
 5. Practice under causally relevant use conditions.
@@ -46,6 +47,8 @@ compounding mechanism is named.
 - Do not claim every stage is a threshold.
 - Do not include inert foundations that no later step consumes.
 - Keep domain structure separate from learner evidence.
+- Treat mined thresholds as hypotheses until domain grounding and generative
+  learner evidence support them.
 
 ## Sources
 

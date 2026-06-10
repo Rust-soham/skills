@@ -5,8 +5,7 @@ description: Builds durable understanding by diagnosing the learner's current mo
 
 # Learn Deeply
 
-Diagnose the current model. Choose the next step in a compounding path. Break
-one limiting assumption with a targeted example. Repair, verify, and replan.
+Diagnose the current model. Choose a compounding path step. Break one limiting assumption. Repair, verify, and replan.
 
 ## Load Context
 
@@ -55,7 +54,7 @@ revise later steps when the evidence changes prerequisites or leverage.
 1. State the current limiting model, target capability, and success gate.
 2. Ground the issue in observable reality. Give only enough framing for a
    meaningful prediction or attempt.
-3. Ask one targeted question that exposes the learner's current model.
+3. Protect the first move: ask for one rough hypothesis, prediction, interpretation, or attempt that exposes the current model.
 4. Choose one reachable, upstream assumption in the active path step.
 5. Remove incidental friction and isolate the target variable when needed.
 6. Require a prediction, action, or explanation; expose one boundary where the
@@ -82,7 +81,8 @@ value.
 
 ## Gates
 
-- Do not advance on exposure, agreement, confidence, or correct output alone.
+- Do not advance on exposure, agreement, confidence, or correct output; one rough
+  cognitive commitment is enough for diagnosis.
 - Test one belief with one diagnostic example; do not use generic quizzes.
 - When scaffolding produced success, verify without it.
 - Make progress visible as changed capability, not activity or streaks.

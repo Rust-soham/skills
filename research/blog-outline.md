@@ -2,8 +2,10 @@
 
 ## Scope
 
-This is the first-pass flow for a long-form article based only on
-[Learner-Owned Model Construction](accelerated-learning/concepts/01-learner-owned-model-construction.md).
+This is the first-pass flow for a long-form article centered on
+[Learner-Owned Model Construction](accelerated-learning/concepts/01-learner-owned-model-construction.md),
+with supporting mechanisms from chosen friction, directed confusion,
+scaffolding dependency, and metacognitive self-probing.
 
 It should read as a personal exploration and proposed framework, not as a
 scientific claim. The article can use lived experience, concrete examples, and
@@ -14,6 +16,10 @@ speculation about what better AI-assisted learning could become.
 AI does not weaken or strengthen learning by default. The difference is whether
 it replaces model construction or helps the learner perform it faster and with
 better feedback.
+
+The decisive moment is often the first move. AI may choose the question,
+retrieve context, or construct the experiment, but the learner should still
+make the first hypothesis, prediction, interpretation, or design commitment.
 
 The learner should remain responsible for:
 
@@ -45,6 +51,9 @@ Points to cover:
 
 - AI can make unfamiliar work suddenly approachable.
 - It can remove hours of searching, setup, syntax lookup, and confusion.
+- It can act like a conceptual layer of the environment: organizing references,
+  stabilizing context, and shortening the distance from an artifact to its
+  governing invariant.
 - It can also produce a strange uncertainty: "Did I learn this, or did I only
   successfully operate the AI?"
 - Output can improve much faster than internal understanding.
@@ -162,6 +171,11 @@ Important nuance:
 - AI may create the first question, example, or challenge.
 - The boundary is that it should not supply the learner's model before the
   learner has had to interpret, predict, or attempt.
+- A rough first move is enough. The learner does not need a polished answer
+  before receiving help.
+- The first move is path-dependent: repeatedly outsourcing orientation,
+  framing, and hypothesis formation can make later reasoning feel impossible
+  without external validation.
 
 ### 5. Show the Model-Construction Loop
 
@@ -210,6 +224,15 @@ Points to cover:
    - Identify where the analogy stops working.
    - Treat successful transfer as stronger evidence than agreement.
 
+Add one threshold-scale example:
+
+- Several surface-different failures initially look unrelated.
+- Rotating the representation reveals one invariant beneath them.
+- The learner's primitives change, and the new model begins generating
+  predictions instead of merely explaining the original case.
+- Clarify that not every fact or practice repetition is a threshold. Thresholds
+  organize larger model transitions.
+
 Transition:
 
 > AI can dramatically improve this loop, but only if it strengthens each
@@ -232,6 +255,7 @@ AI can:
 - Help name and compress the repaired model
 - Generate transfer and boundary cases
 - Remember prior failed assumptions when reliable context exists
+- Rotate representations when the current framing hides the invariant
 
 AI should avoid:
 
@@ -250,6 +274,11 @@ Frame the ideal interaction:
 - AI adjusts assistance based on evidence.
 - The learner leaves with more independent capability than they arrived with.
 
+Name the product contract:
+
+> AI is the environment around the work, not the worker performing the target
+> cognition.
+
 ### 7. Explain Why Immediate Answers Can Starve the Model
 
 Return to the cognitive-decay side of the opening paradox.
@@ -263,6 +292,10 @@ Points to cover:
   memorable.
 - Repeatedly receiving completed reasoning can turn the learner into a reviewer
   of intelligence rather than a producer of it.
+- Passive use can create a resetting loop: consume, copy, get stuck, switch
+  context, and begin again without converting failure into structure.
+- Active use can create a compounding loop: build, fail, diagnose, repair,
+  compress, and reuse.
 - The risk is not simple memory loss.
 - The deeper risk is structural dependency: being unable to navigate, judge,
   or recover without external reasoning.
@@ -308,7 +341,34 @@ Include practical exceptions:
 - The learner should consciously choose whether the current goal is learning,
   exploration, delegation, or rescue.
 
-### 9. Show the End State: From Being Probed to Self-Probing
+### 9. Distinguish Development From Research
+
+Show why one tutoring cadence cannot serve every moment.
+
+**Development mode:**
+
+- The learner is building a real artifact.
+- An unfamiliar concept, library, or framework is blocking the next action.
+- AI should identify the shortest dependency chain, remove retrieval and setup
+  friction, repair the load-bearing model, and return to the artifact.
+- Success is not exhaustive understanding. It is a verified model sufficient
+  for the next build action, with deeper questions parked explicitly.
+
+**Research mode:**
+
+- The goal is broader generative understanding.
+- Follow recursive why chains, controlled FAFO, representation changes,
+  boundary cases, alternatives, and unknown unknowns.
+- Success is a model that survives varied cases and generates better questions.
+
+Explain the common core:
+
+- Both modes preserve learner-owned prediction and diagnosis.
+- Both use evidence rather than fluent explanations as reality.
+- They differ in path breadth, stopping condition, and how quickly they must
+  return to an artifact.
+
+### 10. Show the End State: From Being Probed to Self-Probing
 
 Describe what successful scaffolding should eventually produce.
 
@@ -333,7 +393,7 @@ Transition:
 > The most powerful AI tutor may be the one that gradually makes its own role
 > less necessary.
 
-### 10. Close With the Larger Possibility
+### 11. Close With the Larger Possibility
 
 Return to the two futures from the introduction.
 
@@ -343,6 +403,9 @@ Points to cover:
   move, explanation, diagnosis, and decision.
 - The same technology could compress years of undirected confusion by creating
   better examples, faster feedback, and precisely targeted challenges.
+- The relevant acceleration is not answer latency. It is the density of clear,
+  learner-owned model revisions and the increasing ability to create the next
+  useful experiment.
 - The superpower is not instant access to answers.
 - It is increasing the number and quality of genuine model revisions a learner
   can make.
@@ -366,6 +429,8 @@ Before drafting prose, identify:
 - One example of an old model becoming more precise rather than simply being
   proven wrong
 - One moment when you started asking the probing question yourself
+- One development-mode example where a narrow repair got you back to building
+- One research-mode example where broader FAFO changed the primitives you saw
 
 These examples should carry the article. The framework should explain the
 experience rather than replace it.
@@ -381,14 +446,24 @@ experience rather than replace it.
   measured universal outcomes.
 - Present "exponential" improvement as imagination or hypothesis unless later
   evidence supports it.
+- Do not present threshold mining as an automatic discovery of domain truth.
+- Do not treat faster interaction as a compounding loop unless failures become
+  reusable structure.
 
 ## Source Basis
 
 - [Learner-Owned Model Construction](accelerated-learning/concepts/01-learner-owned-model-construction.md)
+- [Directed Confusion and Feedback Density](accelerated-learning/concepts/20-directed-confusion-and-feedback-density.md)
+- [Scaffolding Without Epistemic Dependency](accelerated-learning/concepts/18-scaffolding-without-epistemic-dependency.md)
+- [Threshold and Unlock Engineering](accelerated-learning/concepts/08-threshold-and-unlock-engineering.md)
+- [Elite Hacker Roadmap](accelerated-learning/sources/S02-elite-hacker-roadmap.md)
 - [AI and Cognitive Softness](accelerated-learning/sources/S03-ai-and-cognitive-softness.md)
 - [Cognitive Scaffolding Shift](accelerated-learning/sources/S04-cognitive-scaffolding-shift.md)
 - [Delayed Growth, Exponential Jump](accelerated-learning/sources/S05-delayed-growth.md)
 - [AI in Development Workflows](accelerated-learning/sources/S06-ai-in-dev-workflows.md)
 - [Learning With AI](accelerated-learning/sources/S07-learning-with-ai.md)
+- [VS Code Extension Guide](accelerated-learning/sources/S08-vscode-extension-guide.md)
+- [Forking and Cloning Workflow](accelerated-learning/sources/S10-forking-and-cloning-workflow.md)
 - [Learning System for tRPC](accelerated-learning/sources/S11-learning-system-for-trpc.md)
 - [Threshold Unlocks](accelerated-learning/sources/S13-threshold-unlocks.md)
+- [Friction Avoidance Hell](accelerated-learning/sources/S16-friction-avoidance-hell.md)

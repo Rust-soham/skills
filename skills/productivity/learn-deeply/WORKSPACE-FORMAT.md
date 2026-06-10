@@ -79,6 +79,7 @@ Change the mission only with learner confirmation.
 # State
 - Mode: development | research
 - Current model:
+- First move:
 - Current path step:
 - Pending verification:
 - Assistance level:
@@ -95,6 +96,7 @@ Create a record only after verification:
 # <Model Transition>
 - Scope:
 - Old model:
+- First move:
 - Prediction or attempt:
 - Probe or event:
 - Observation:

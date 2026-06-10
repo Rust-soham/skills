@@ -13,6 +13,7 @@ reference shapes for compression, structure, and instruction style only.
 - [x] Corpus inventoried
 - [x] Every transcript annotated (16/16)
 - [x] Every transcript region assigned an explicit audit disposition
+- [x] Nine restored transcript exports reprocessed and revalidated
 - [x] Claims deduplicated across sources
 - [x] Refinements and contradictions reconciled
 - [x] Open questions reviewed with the user
@@ -28,6 +29,7 @@ reference shapes for compression, structure, and instruction style only.
 - [CONCEPT-INDEX.md](CONCEPT-INDEX.md): Deduplicated mechanisms and evolution
 - [concepts/](concepts/README.md): One browsable canonical card per extracted concept
 - [COVERAGE-AUDIT.md](COVERAGE-AUDIT.md): Line-range coverage and exclusion ledger
+- [SECOND-PASS-AUDIT.md](SECOND-PASS-AUDIT.md): Re-scan for absent or under-promoted mechanisms
 - [REFERENCE-SHAPE.md](REFERENCE-SHAPE.md): Repository style and compression rules
 - [REQUIREMENTS-MATRIX.md](REQUIREMENTS-MATRIX.md): Objective-to-artifact coverage
 - [EVALUATION-SCENARIOS.md](EVALUATION-SCENARIOS.md): Trigger and behavior tests

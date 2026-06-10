@@ -27,6 +27,19 @@ learning engine. It contains no learner-specific state.
 - High-leverage thresholds
 - Capabilities each threshold unlocks
 
+### Threshold Mining
+
+For each candidate threshold not already supported by trusted domain evidence:
+
+- Surface-different cases compared
+- Incidental representation removed
+- Current primitives and limiting model
+- Representation or abstraction rotations attempted
+- Candidate invariant
+- Domain evidence supporting or falsifying it
+- Unseen predictions or constructions it should enable
+- Status: `candidate`, `grounded`, or `rejected`
+
 ### Limiting Models
 
 For each common or observed misconception:
@@ -69,6 +82,9 @@ New learner-derived misconceptions enter as candidates. Promote them only after
 technical verification; recurrence may raise priority but does not make them
 true.
 
+The same rule applies to mined thresholds. A compelling compression or learner
+"click" does not establish domain truth.
+
 Every factual claim that can change by version needs provenance. The adapter
 must distinguish domain truth from a teaching hypothesis.
 
@@ -82,6 +98,7 @@ Link these structures during a session. Do not merge them into one ontology.
 
 Evidence:
 [S01 domain autopsy](sources/S01-actual-roadmap.md#0-domain-autopsy),
+[S02 threshold mining](sources/S02-elite-hacker-roadmap.md#threshold-mining),
 [S02 threshold graph](sources/S02-elite-hacker-roadmap.md#threshold-graph),
 [S09 universal adapters](sources/S09-socrates-product-exploration.md#universal-core-and-domain-adapters),
 [S13 mutable belief graph](sources/S13-threshold-unlocks.md#belief-transition-graph).

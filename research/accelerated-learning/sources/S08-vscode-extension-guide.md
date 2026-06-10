@@ -13,13 +13,69 @@ VS Code extension. Its strongest learning evidence begins when the conversation
 turns to the "pit of excellence." Product architecture is retained only where
 it defines inputs, state, or behavior for the learning loop.
 
+### Socrates Product and Extension Exploration
+
+The user proposes a VS Code agent named Socrates that helps the programmer
+understand code rather than replacing coding work. The project is also intended
+as a fast iteration environment for learning an unfamiliar language
+([3-5](../../../transcripts/VS%20Code%20Extension%20Guide.md#L3)).
+
+The response changes the project model from a full-stack application to a plugin
+hosted inside an existing application:
+
+`editor event -> VS Code API -> extension logic -> editor response`
+
+([19-64](../../../transcripts/VS%20Code%20Extension%20Guide.md#L19))
+
+It identifies four product primitives:
+
+- Input: selected code, file, or symbol
+- Context: surrounding code and project structure
+- Agent: model call and analysis
+- Output: explanation inside the editor
+
+([107-124](../../../transcripts/VS%20Code%20Extension%20Guide.md#L107))
+
+The proposed first vertical loop is deliberately narrow:
+
+`select code -> invoke command -> collect context -> ask model -> display explanation`
+
+([80-103](../../../transcripts/VS%20Code%20Extension%20Guide.md#L80)).
+
+`SYNTHESIS`: This is an implementation instance of a pit of success. The first
+artifact traverses the entire product loop while postponing orchestration,
+persistence, rich UI, and secondary language-learning goals.
+
+The transcript warns against stacking Pi, Mastra, Effect, Rust services, or
+other abstractions before the basic interaction produces evidence of need
+([128-184](../../../transcripts/VS%20Code%20Extension%20Guide.md#L128)).
+
+The staged build order is:
+
+1. Activate an extension command.
+2. Read editor selection and location.
+3. Call a model with minimal plumbing.
+4. Display the result through the simplest UI.
+5. Add richer editor interactions only after the loop works.
+
+([188-229](../../../transcripts/VS%20Code%20Extension%20Guide.md#L188))
+
+`REFINEMENT`: The advice to postpone Rust is project-specific. The general
+mechanism is to avoid making two unrelated unknowns jointly load-bearing before
+either produces feedback.
+
+The branch ends with another durable principle: for an unfamiliar,
+interaction-heavy product, a tight end-to-end feedback loop outranks elaborate
+architecture selected in advance
+([232-282](../../../transcripts/VS%20Code%20Extension%20Guide.md#L232)).
+
 ### Compact Model-Repair Loop
 
 The source compresses the teaching interaction into:
 
 `state model -> predict -> targeted break -> contradiction -> repair -> compress`
 
-([285-313](../../../transcripts/VS%20Code%20Extension%20Guide.md#L285)).
+([307-340](../../../transcripts/VS%20Code%20Extension%20Guide.md#L307)).
 
 Its constraints are:
 
@@ -29,7 +85,7 @@ Its constraints are:
 
 `SOURCE`: Improvement compounds because a repaired model produces better
 predictions, which produce clearer errors and faster subsequent correction
-([285-306](../../../transcripts/VS%20Code%20Extension%20Guide.md#L285)).
+([307-332](../../../transcripts/VS%20Code%20Extension%20Guide.md#L307)).
 
 ### Session Shape
 
@@ -40,11 +96,11 @@ The proposed session has three scales:
 2. A mini-integration task that forces two or three concepts to interact.
 3. A delayed revisit of old failure cases in a changed context.
 
-([317-355](../../../transcripts/VS%20Code%20Extension%20Guide.md#L317))
+([345-379](../../../transcripts/VS%20Code%20Extension%20Guide.md#L345))
 
 The source explicitly says to stop before fatigue and later caps sessions
-([321-331](../../../transcripts/VS%20Code%20Extension%20Guide.md#L321),
-[410-415](../../../transcripts/VS%20Code%20Extension%20Guide.md#L410)).
+([349-355](../../../transcripts/VS%20Code%20Extension%20Guide.md#L349),
+[441-449](../../../transcripts/VS%20Code%20Extension%20Guide.md#L441)).
 
 `REFINEMENT`: A curriculum cycle should contain both isolated diagnosis and an
 integration task. Repeated micro-probes alone can repair fragments without
@@ -55,12 +111,12 @@ testing whether the combined model works.
 Speed comes from targeting errors rather than increasing content volume. The
 system should track wrong predictions, cluster them into recurring patterns,
 and generate later challenges against those clusters
-([373-386](../../../transcripts/VS%20Code%20Extension%20Guide.md#L373)).
+([402-419](../../../transcripts/VS%20Code%20Extension%20Guide.md#L402)).
 
 Examples of transferable failure patterns include assuming linear flow in a
 stateful system, ignoring timing, and confusing reference with ownership. The
 learner then asks where else the same pattern would fail
-([390-406](../../../transcripts/VS%20Code%20Extension%20Guide.md#L390)).
+([423-437](../../../transcripts/VS%20Code%20Extension%20Guide.md#L423)).
 
 `SYNTHESIS`: Topic mastery and fluid growth require different state:
 
@@ -88,16 +144,22 @@ Outputs:
 - Updated concept state
 - One or two failure patterns
 
-([419-438](../../../transcripts/VS%20Code%20Extension%20Guide.md#L419))
+([454-483](../../../transcripts/VS%20Code%20Extension%20Guide.md#L454))
 
 The source's short-term protocol adds an integration task and a delayed revisit
-([473-485](../../../transcripts/VS%20Code%20Extension%20Guide.md#L473)).
+([517-525](../../../transcripts/VS%20Code%20Extension%20Guide.md#L517)).
 
 ### Engagement Through Earned Progress
 
 The transcript first rejects engineered obsession in favor of reliable insight
 per session and faster correction
-([489-507](../../../transcripts/VS%20Code%20Extension%20Guide.md#L489)).
+([529-547](../../../transcripts/VS%20Code%20Extension%20Guide.md#L529)).
+
+The restored user turns make the product intent explicit: curate an environment
+that propels sustained engagement and makes the learner increasingly capable at
+the chosen craft
+([562-566](../../../transcripts/VS%20Code%20Extension%20Guide.md#L562),
+[839-841](../../../transcripts/VS%20Code%20Extension%20Guide.md#L839)).
 
 After the user pushes for greater intensity, the durable mechanisms remain:
 
@@ -108,16 +170,21 @@ After the user pushes for greater intensity, the durable mechanisms remain:
 - Accumulate small pieces of evidence into confidence in one's ability to
   figure things out.
 
-([539-664](../../../transcripts/VS%20Code%20Extension%20Guide.md#L539))
+([583-709](../../../transcripts/VS%20Code%20Extension%20Guide.md#L583))
 
 The source then states the governing boundary: bootstrap intrinsic drive through
 repeated evidence of growth, because externally engineered obsession risks
 burnout, shallow engagement, and dependence
-([682-712](../../../transcripts/VS%20Code%20Extension%20Guide.md#L682)).
+([730-747](../../../transcripts/VS%20Code%20Extension%20Guide.md#L730)).
+
+The closing product claim repeats the acceptable causal order: fast, visible
+improvement may produce return and momentum; forced obsession is not the
+mechanism
+([1113-1135](../../../transcripts/VS%20Code%20Extension%20Guide.md#L1113)).
 
 `SOURCE`: The intended felt result is not "I studied," but "I can see things I
 could not see before"
-([1014-1026](../../../transcripts/VS%20Code%20Extension%20Guide.md#L1014)).
+([1097-1109](../../../transcripts/VS%20Code%20Extension%20Guide.md#L1097)).
 
 ### Operational Definition of Excellence
 
@@ -127,11 +194,11 @@ could not see before"
 - Precise error detection
 - Execution under uncertainty
 
-([796-811](../../../transcripts/VS%20Code%20Extension%20Guide.md#L796))
+([855-870](../../../transcripts/VS%20Code%20Extension%20Guide.md#L855))
 
 The environment trains these through prediction pressure, exposure of the
 weakest assumption, causal correction, and visible capability change
-([815-919](../../../transcripts/VS%20Code%20Extension%20Guide.md#L815)).
+([874-960](../../../transcripts/VS%20Code%20Extension%20Guide.md#L874)).
 
 ### Durable State Suggested by the Source
 
@@ -181,6 +248,6 @@ and stopping before fatigue. Difficulty must therefore be adaptive to evidence,
 not permanently elevated.
 
 `QUESTION`: S08 requires session closure through one clear learned rule
-([410-415](../../../transcripts/VS%20Code%20Extension%20Guide.md#L410)).
+([441-449](../../../transcripts/VS%20Code%20Extension%20Guide.md#L441)).
 S09 later recommends deliberately unresolved endings. These are not equivalent
 and must be reconciled.

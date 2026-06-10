@@ -19,6 +19,8 @@ capability delta -> willingness to re-engage`
 - High-quality reference work
 - Craft, care, and chosen identity
 - Closure on the completed repair
+- Sparse intervention while attention and error quality remain high
+- Session conditions that leave the learner willing and able to return
 
 ## Evidence of Engagement Quality
 
@@ -27,6 +29,8 @@ capability delta -> willingness to re-engage`
 - The learner notices their own capability delta.
 - Curiosity generates authentic next questions.
 - Assistance decreases without loss of rigor.
+- Meaningful effort may be tiring, but does not consistently degrade
+  post-session vitality.
 
 ## Rejected Mechanisms
 
@@ -50,6 +54,7 @@ capability delta -> willingness to re-engage`
 
 [Learner Ownership](01-learner-owned-model-construction.md),
 [Artifact Contact](16-artifact-contact-and-avoidance-detection.md),
+[Progressive Scaffolding](06-progressive-scaffolding.md),
 [Pressure versus safety tension](../TENSIONS.md#9-productive-pressure-vs-psychological-safety),
 [Closure tension](../TENSIONS.md#7-session-closure-vs-deliberate-open-loops).
 

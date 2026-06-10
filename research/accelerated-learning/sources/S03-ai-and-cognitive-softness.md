@@ -11,41 +11,46 @@ Status: cross-checked
 `SOURCE`: AI removes friction, but some friction is the mechanism that creates
 mental models. If outputs arrive without wrong hypotheses, debugging, or
 reconstruction, the learner gains recognition without generative understanding
-([20-60](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L20)).
+([20-68](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L20)).
 
 The source names four risks:
 
 - **Model starvation**: conclusions are borrowed without building the machinery
   that can derive or adapt them
-  ([39-60](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L39)).
+  ([41-68](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L41)).
 - **Loss of epistemic confidence**: asking too early trains the learner to treat
   their own partial thinking as optional
-  ([64-90](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L64)).
+  ([72-104](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L72)).
 - **Atrophy of slow thinking**: immediate closure skips exploration, tension,
   and synthesis
-  ([94-116](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L94)).
+  ([108-136](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L108)).
 - **Loss of authorship**: producing without witnessing one's own reasoning
   weakens identity and satisfaction
-  ([120-139](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L120)).
+  ([140-164](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L140)).
 
 The danger is framed as structural dependency rather than generic intelligence
 or memory loss
-([143-154](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L143)).
+([168-181](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L168)).
 
 ### Productive vs Wasted Friction
 
 `SOURCE`: Productive friction builds models, forces abstraction, and requires
 judgment. Examples include deriving, handling ambiguity, deciding relevance,
 forming opinions, and designing approaches
-([259-282](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L259)).
+([321-352](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L321)).
 
 `SOURCE`: Wasted friction consumes working memory without changing the model.
 Examples include syntax lookup, API-name recall, boilerplate, repetitive setup,
 formatting, and repeated retrieval of already-understood material
-([286-299](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L286)).
+([356-376](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L356)).
 
 Compressed rule: outsource cognitive overhead, not cognition
-([303-315](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L303)).
+([380-394](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L380)).
+
+`SOURCE`: The restored user turn states the boundary directly: do not let AI
+hijack thinking or productive struggle; use it to remove RAM-overload and
+secondary friction
+([307-309](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L307)).
 
 ### Proposed Workflow
 
@@ -55,7 +60,7 @@ Compressed rule: outsource cognitive overhead, not cognition
    retaining direction.
 4. Reintegrate by explaining, modifying, and transferring the result.
 
-([340-390](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L340))
+([422-488](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L422))
 
 Earlier rules express the same flow as:
 
@@ -64,17 +69,17 @@ Earlier rules express the same flow as:
 - Reconstruct after explanation
 - Protect confusion long enough for model formation
 
-([157-226](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L157))
+([185-275](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L185))
 
 ### Signals
 
 - If the learner cannot reconstruct the idea, it was not learned
-  ([179-187](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L179)).
+  ([214-230](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L214)).
 - If the learner cannot modify or apply the AI-assisted result elsewhere, AI
   carried too much of the cognition
-  ([382-390](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L382)).
+  ([470-488](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L470)).
 - A healthy system should leave the learner able to function without AI
-  ([394-412](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L394)).
+  ([492-531](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L492)).
 
 ### Failure Modes
 
@@ -89,7 +94,12 @@ Earlier rules express the same flow as:
 
 `SOURCE`: Thinking is path-dependent. Outsourcing the first move makes later
 outsourcing more likely
-([319-336](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L319)).
+([398-418](../../../transcripts/AI%20and%20Cognitive%20Softness.md#L398)).
+
+`REFINEMENT`: Protecting the first move does not require withholding orientation
+or a diagnostic prompt. It requires the learner to supply the first hypothesis,
+prediction, prioritization, or reconstruction that determines the direction of
+thought.
 
 `QUESTION`: "AI after thinking, never before" is too absolute for a tutor whose
 job is to ask diagnostic questions before teaching. The durable constraint may
