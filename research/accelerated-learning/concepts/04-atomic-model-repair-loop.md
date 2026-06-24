@@ -58,5 +58,5 @@ verify`
 [Compression](09-compression-and-pattern-extraction.md).
 
 Runtime:
-[learn-deeply](../../../skills/productivity/learn-deeply/SKILL.md),
-[state format](../../../skills/productivity/learn-deeply/WORKSPACE-FORMAT.md).
+[learn-deeply](../../../skills/mine/exponential/learn-deeply/SKILL.md),
+[state format](../../../skills/mine/exponential/learn-deeply/WORKSPACE-FORMAT.md).

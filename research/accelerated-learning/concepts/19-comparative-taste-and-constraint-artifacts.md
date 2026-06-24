@@ -52,4 +52,4 @@ explain why a pattern fits this situation.
 [Compression](09-compression-and-pattern-extraction.md).
 
 Runtime:
-[programming adapter](../../../skills/productivity/learn-deeply/PROGRAMMING.md).
+[programming adapter](../../../skills/mine/exponential/learn-deeply/PROGRAMMING.md).

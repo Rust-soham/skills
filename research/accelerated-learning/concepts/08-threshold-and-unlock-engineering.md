@@ -77,5 +77,5 @@ supplying a verbal label as if it were a completed transition.
 [Every stage tension](../TENSIONS.md#15-every-stage-as-threshold-vs-supporting-fluency).
 
 Runtime:
-[design-learning-path](../../../skills/productivity/design-learning-path/SKILL.md),
-[path format](../../../skills/productivity/design-learning-path/PATH-FORMAT.md).
+[design-learning-path](../../../skills/mine/exponential/design-learning-path/SKILL.md),
+[path format](../../../skills/mine/exponential/design-learning-path/PATH-FORMAT.md).

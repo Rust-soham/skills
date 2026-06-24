@@ -42,6 +42,8 @@ reference shapes for compression, structure, and instruction style only.
 - [TENSIONS.md](TENSIONS.md): Cross-source conflicts and provisional resolutions
 - [SYNTHESIS.md](SYNTHESIS.md): Inputs, state, loops, outputs, and boundaries
 - [ARCHITECTURE.md](ARCHITECTURE.md): Candidate components and validation order
+- [AI-ACCELERATED-LEARNING-DISCUSSION.md](AI-ACCELERATED-LEARNING-DISCUSSION.md): User-originated theory discussion on the AI leverage gap, learner-owned model refinement, question generation, and delegation growth
+- [WORLD-SIMULATION.md](WORLD-SIMULATION.md): Speculative scenario for the social effects of learner-owned AI compression
 - [SKILL-BOUNDARIES.md](SKILL-BOUNDARIES.md): Candidate units for review
 - [DECISION-PACKET.md](DECISION-PACKET.md): Decisions blocking initial drafts
 - `sources/`: One evidence note per transcript
@@ -49,8 +51,9 @@ reference shapes for compression, structure, and instruction style only.
 
 ## Runtime Delivery
 
-- `skills/productivity/learn-deeply/`: execute and verify one active path edge
-- `skills/productivity/design-learning-path/`: design and update compounding paths
+- `skills/mine/exponential/`: index and shared choreography for the learning skills
+- `skills/mine/exponential/learn-deeply/`: execute and verify one active path edge
+- `skills/mine/exponential/design-learning-path/`: design and update compounding paths
 
 The programming material remains a conditional adapter. A specialized
 programming skill and Socrates/Pi harness are later derivatives.

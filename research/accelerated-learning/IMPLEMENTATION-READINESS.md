@@ -5,11 +5,11 @@ This execution plan has been implemented. See [VALIDATION.md](VALIDATION.md).
 
 ## Repository Placement
 
-Both proposed skills belong in `skills/productivity/` because their trigger is a
-learning workflow, not software implementation:
+Both proposed skills live in `skills/mine/exponential/`; their trigger is a learning
+workflow, not software implementation:
 
 ```text
-skills/productivity/
+skills/mine/exponential/
 ├── learn-deeply/
 │   ├── SKILL.md
 │   ├── WORKSPACE-FORMAT.md
@@ -101,9 +101,8 @@ before adding product-specific interfaces.
 Shipping requires:
 
 - Add both paths to `.claude-plugin/plugin.json`
-- Add both skills to `skills/productivity/README.md`
-- Replace or extend the top-level `README.md`, currently `WIP.`, with linked
-  entries required by `CLAUDE.md`
+- Add both skills to the `Mine` section of the top-level `README.md`
+- Keep the top-level `README.md` catalog linked and current
 - Leave `teach` unchanged
 
 ## Validation
@@ -114,14 +113,14 @@ Run for both skills:
 
 ```bash
 python3 /home/soham/.codex/skills/.system/skill-creator/scripts/quick_validate.py \
-  skills/productivity/<skill>
+  skills/mine/exponential/<skill>
 ```
 
 Also verify:
 
 - `.claude-plugin/plugin.json` parses as JSON
 - Every promoted skill appears in the plugin manifest
-- Every promoted skill appears in its bucket README and top-level README
+- Every promoted skill appears in the `Mine` section of the top-level README
 - All local Markdown links resolve
 - No duplicated rules across `SKILL.md` and references
 

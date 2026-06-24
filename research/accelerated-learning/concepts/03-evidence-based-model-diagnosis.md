@@ -49,4 +49,4 @@ contradictions before any explanation is given.
 [Correct output tension](../TENSIONS.md#11-correct-output-vs-correct-reasoning).
 
 Runtime:
-[learn-deeply](../../../skills/productivity/learn-deeply/SKILL.md).
+[learn-deeply](../../../skills/mine/exponential/learn-deeply/SKILL.md).

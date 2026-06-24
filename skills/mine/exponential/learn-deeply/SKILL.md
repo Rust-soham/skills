@@ -5,7 +5,7 @@ description: Builds durable understanding by diagnosing the learner's current mo
 
 # Learn Deeply
 
-Diagnose the current model. Choose a compounding path step. Break one limiting assumption. Repair, verify, and replan.
+Diagnose the current model. Choose a compounding path step. Break one limiting assumption. Repair, verify, and replan. `design-learning-path`, when available, sequences the path; this skill executes one step and returns verified evidence. For choices about agency, probing, or assistance, read [FOUNDATIONS.md](./FOUNDATIONS.md).
 
 ## Load Context
 
@@ -25,6 +25,10 @@ artifacts, also use [PROGRAMMING.md](./PROGRAMMING.md).
 
 ## Select Mode
 
+Name the mission type: `unblock-build`, `abstraction-untangle`, `research-map`,
+`layered-capability`, or `transfer-synthesis`. It sets the return condition;
+development or research sets the breadth and depth of the current work.
+
 - **Development:** remove the unfamiliar-concept bottleneck blocking the next
   artifact action, then return to building.
 - **Research:** build a deeper generative model through recursive why chains,
@@ -36,9 +40,9 @@ Never silently turn ordinary execution into a lesson.
 
 ## Build or Update the Path
 
-After diagnosing the starting model, load and apply
-[design-learning-path](../design-learning-path/SKILL.md) to choose the active
-step. An isolated repair may use a one-step path.
+After diagnosing the starting model, use `design-learning-path` when it is
+available to choose the active step. Otherwise define the minimal ordered path
+needed for this repair. An isolated repair may use a one-step path.
 
 - In development mode, design the shortest dependency path from blocker to
   artifact return.

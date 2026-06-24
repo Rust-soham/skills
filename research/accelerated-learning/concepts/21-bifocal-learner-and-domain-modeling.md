@@ -65,5 +65,5 @@ not required.
 [Prerequisite graph tension](../TENSIONS.md#12-prerequisite-graph-vs-mutable-belief-graph).
 
 Runtime:
-[learn-deeply](../../../skills/productivity/learn-deeply/SKILL.md),
-[design-learning-path](../../../skills/productivity/design-learning-path/SKILL.md).
+[learn-deeply](../../../skills/mine/exponential/learn-deeply/SKILL.md),
+[design-learning-path](../../../skills/mine/exponential/design-learning-path/SKILL.md).

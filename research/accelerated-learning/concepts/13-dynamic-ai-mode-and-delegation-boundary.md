@@ -58,4 +58,4 @@ labels.
 [No full solutions tension](../TENSIONS.md#10-no-full-solutions-vs-adaptive-delegation).
 
 Runtime:
-[learn-deeply](../../../skills/productivity/learn-deeply/SKILL.md).
+[learn-deeply](../../../skills/mine/exponential/learn-deeply/SKILL.md).

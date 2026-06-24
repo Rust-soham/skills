@@ -4,13 +4,13 @@
 
 Primary references:
 
-- `skills/productivity/teach/`
-- `skills/engineering/diagnose/`
-- `skills/productivity/grill-me/`
-- `skills/engineering/zoom-out/`
-- `skills/engineering/prototype/`
-- `skills/engineering/tdd/`
-- `skills/productivity/handoff/`
+- `skills/other/productivity/teach/`
+- `skills/other/engineering/diagnose/`
+- `skills/other/productivity/grill-me/`
+- `skills/other/engineering/zoom-out/`
+- `skills/other/engineering/prototype/`
+- `skills/other/engineering/tdd/`
+- `skills/other/productivity/handoff/`
 
 `teach` supplies the closest state model. The neighboring skills reveal the
 repository's stronger instruction style.

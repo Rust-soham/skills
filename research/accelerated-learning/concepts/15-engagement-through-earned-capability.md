@@ -59,4 +59,4 @@ capability delta -> willingness to re-engage`
 [Closure tension](../TENSIONS.md#7-session-closure-vs-deliberate-open-loops).
 
 Runtime:
-[learn-deeply trust boundaries](../../../skills/productivity/learn-deeply/SKILL.md).
+[learn-deeply trust boundaries](../../../skills/mine/exponential/learn-deeply/SKILL.md).

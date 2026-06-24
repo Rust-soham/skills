@@ -66,5 +66,5 @@ last verification. Use `candidate -> verified -> challenged -> superseded`.
 [Persistent context tension](../TENSIONS.md#18-persistent-context-vs-privacy-and-staleness).
 
 Runtime:
-[state format](../../../skills/productivity/learn-deeply/WORKSPACE-FORMAT.md),
-[path format](../../../skills/productivity/design-learning-path/PATH-FORMAT.md).
+[state format](../../../skills/mine/exponential/learn-deeply/WORKSPACE-FORMAT.md),
+[path format](../../../skills/mine/exponential/design-learning-path/PATH-FORMAT.md).

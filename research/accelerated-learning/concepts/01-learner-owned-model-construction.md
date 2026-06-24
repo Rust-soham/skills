@@ -58,4 +58,4 @@ terminal capability.
 [AI after thinking tension](../TENSIONS.md#2-ai-after-thinking-vs-ai-designed-diagnosis).
 
 Runtime:
-[learn-deeply](../../../skills/productivity/learn-deeply/SKILL.md).
+[learn-deeply](../../../skills/mine/exponential/learn-deeply/SKILL.md).

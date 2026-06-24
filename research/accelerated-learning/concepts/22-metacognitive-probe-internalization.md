@@ -54,4 +54,4 @@ models, and correcting the learning process that produced the gap.
 [Bifocal Modeling](21-bifocal-learner-and-domain-modeling.md).
 
 Runtime:
-[learn-deeply](../../../skills/productivity/learn-deeply/SKILL.md).
+[learn-deeply](../../../skills/mine/exponential/learn-deeply/SKILL.md).

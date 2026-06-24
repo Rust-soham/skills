@@ -1,7 +1,7 @@
 # Write-a-Skill Audit
 
 Validated against
-[`skills/productivity/write-a-skill/SKILL.md`](../../skills/productivity/write-a-skill/SKILL.md).
+[`skills/other/productivity/write-a-skill/SKILL.md`](../../skills/other/productivity/write-a-skill/SKILL.md).
 
 ## Process
 

@@ -64,4 +64,4 @@ compounding mechanism is named.
 [Easy-to-hard tension](../TENSIONS.md#5-easy-to-hard-vs-leverage-dependency-order).
 
 Runtime:
-[design-learning-path](../../../skills/productivity/design-learning-path/SKILL.md).
+[design-learning-path](../../../skills/mine/exponential/design-learning-path/SKILL.md).

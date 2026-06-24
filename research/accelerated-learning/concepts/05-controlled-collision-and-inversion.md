@@ -50,5 +50,5 @@ A strong collision:
 [Environment Transformations](17-environment-transformations.md).
 
 Runtime:
-[learn-deeply](../../../skills/productivity/learn-deeply/SKILL.md),
-[programming adapter](../../../skills/productivity/learn-deeply/PROGRAMMING.md).
+[learn-deeply](../../../skills/mine/exponential/learn-deeply/SKILL.md),
+[programming adapter](../../../skills/mine/exponential/learn-deeply/PROGRAMMING.md).

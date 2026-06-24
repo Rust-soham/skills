@@ -54,4 +54,4 @@ compression preserves what predicts and explains, not merely a slogan.
 [Multi-Scope State](14-multi-scope-durable-state.md).
 
 Runtime:
-[state format](../../../skills/productivity/learn-deeply/WORKSPACE-FORMAT.md).
+[state format](../../../skills/mine/exponential/learn-deeply/WORKSPACE-FORMAT.md).

@@ -53,4 +53,4 @@ Examples of transferable structure:
 [Scaffolding Without Dependency](18-scaffolding-without-epistemic-dependency.md).
 
 Runtime:
-[learn-deeply](../../../skills/productivity/learn-deeply/SKILL.md).
+[learn-deeply](../../../skills/mine/exponential/learn-deeply/SKILL.md).

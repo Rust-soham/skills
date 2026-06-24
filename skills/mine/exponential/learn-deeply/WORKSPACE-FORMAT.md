@@ -16,11 +16,14 @@ user's direction.
 ├── PROJECT.md
 ├── STATE.md
 ├── CURRICULUM.md
+├── GLOSSARY.md
+├── RESOURCES.md
 ├── records/
 └── sandboxes/
 ```
 
-`CURRICULUM.md`, `records/`, and `sandboxes/` are optional until needed.
+`CURRICULUM.md`, `GLOSSARY.md`, `RESOURCES.md`, `records/`, and `sandboxes/`
+are optional until needed.
 
 ## Scope
 
@@ -52,6 +55,8 @@ reconstruction evidence. Never copy raw chat or project context globally.
 - Why it matters:
 - Independent success:
 - Constraints:
+- Mission type: unblock-build | abstraction-untangle | research-map | layered-capability | transfer-synthesis
+- Out of scope:
 - Target friction:
 - Mode: development | research
 - Current priority: artifact return | model depth
@@ -88,6 +93,34 @@ Change the mission only with learner confirmation.
 - Next action:
 ```
 
+### `GLOSSARY.md`
+
+Create this only when repeated or ambiguous terminology would distort later
+reasoning. Add a term only after the learner uses it correctly; define it in
+one or two sentences and record any rejected aliases or local resolution.
+This is a shared compression layer, not a dictionary to preload.
+
+### `RESOURCES.md`
+
+Create this for research-mode work or externally grounded, version-sensitive
+claims. Keep a short annotated source map:
+
+```md
+# Resources
+## Ground truth
+- Source, version or date, and claims it supports
+
+## Practice context
+- Practitioner or community source, the judgment it informs, and its limits
+
+## Gaps
+- Important claims or conditions not yet grounded
+```
+
+Treat primary sources, executable evidence, and official documentation as
+ground truth when appropriate. Practice context can sharpen judgment but does
+not replace technical verification.
+
 ## Evidence Records
 
 Create a record only after verification:
@@ -115,6 +148,11 @@ Create a record only after verification:
 Portable global entries also record the originating workspace. Use
 `candidate -> verified -> challenged -> superseded`; do not silently overwrite
 contradictions.
+
+A record is decision-grade learning state, not a session log. Do not write one
+for material merely covered, an answer supplied by the agent, or a passing toy
+without independent evidence. When a later repair replaces an earlier model,
+mark the old record as superseded and retain the learning history.
 
 Revalidate when context changes, evidence conflicts, or a claim will justify a
 skipped prerequisite, major analogy, or delegation decision. Age alone does not

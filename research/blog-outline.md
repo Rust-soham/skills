@@ -4,8 +4,9 @@
 
 This is the first-pass flow for a long-form article centered on
 [Learner-Owned Model Construction](accelerated-learning/concepts/01-learner-owned-model-construction.md),
-with supporting mechanisms from chosen friction, directed confusion,
-scaffolding dependency, and metacognitive self-probing.
+with supporting mechanisms from curriculum as leverage architecture, chosen
+friction, directed confusion, scaffolding dependency, and metacognitive
+self-probing.
 
 It should read as a personal exploration and proposed framework, not as a
 scientific claim. The article can use lived experience, concrete examples, and
@@ -33,6 +34,11 @@ The learner should remain responsible for:
 AI can arrange the conditions around those acts, but it cannot perform them on
 the learner's behalf and still call the result learning.
 
+At the curriculum scale, AI can sequence the next transitions so that each one
+reuses prior foundations, lowers future friction, and makes the next meaningful
+action easier to take. At the step scale, it can shape one high-information
+experience through which the learner performs the actual model repair.
+
 ## Possible Titles
 
 - Who Is Doing the Learning?
@@ -40,6 +46,8 @@ the learner's behalf and still call the result learning.
 - AI Should Debug Your Mental Models, Not Replace Them
 - Borrowed Intelligence vs. Constructed Understanding
 - How AI Can Help You Think Without Thinking for You
+- AI as Learning Compression
+- The Feedback Loop Is the Product
 
 ## Article Flow
 
@@ -238,7 +246,38 @@ Transition:
 > AI can dramatically improve this loop, but only if it strengthens each
 > learner-owned step instead of silently skipping it.
 
-### 6. Recast AI as a Mental-Model Debugger
+### 6. Design the Sequence, Not Just the Exercise
+
+Introduce the curriculum-level idea before describing the agent's individual
+interventions.
+
+Points to cover:
+
+- A powerful exercise in the wrong order can still waste a learner's energy.
+- The path should not be a topic inventory or a universal beginner-to-advanced
+  ladder.
+- It should be a leverage-ordered sequence of model transitions.
+- Each transition should consume earlier foundations, reduce future friction,
+  unlock a better question, feedback loop, artifact, or successor capability.
+- The curriculum should make the correct next action the easiest natural action:
+  a pit of success.
+- A longer mission can recurse: a large transition becomes a child curriculum
+  with its own thresholds, artifacts, and return condition.
+- The mental-model loop from the previous section is the inside of one selected
+  curriculum step, not the whole curriculum by itself.
+
+Use a brief contrast:
+
+- **Weak path:** consume a tutorial, copy an example, get stuck, switch topics.
+- **Compounding path:** encounter a threshold, repair the model, build an
+  artifact, reuse the model in the next transition.
+
+Transition:
+
+> Once the path tells us which transformation matters now, AI can compress the
+> distance to the learner-owned encounter that makes it real.
+
+### 7. Recast AI as a Learning-Compression System and Mental-Model Debugger
 
 Describe the constructive role AI can play.
 
@@ -246,6 +285,8 @@ AI can:
 
 - Retrieve definitions, documentation, and examples
 - Remove setup and syntax friction
+- Compress the time and noise between a learner's attempt, evidence, and next
+  model revision
 - Ask for the learner's prediction
 - Generate a case that targets one likely misconception
 - Present counterexamples instead of immediately explaining
@@ -274,12 +315,30 @@ Frame the ideal interaction:
 - AI adjusts assistance based on evidence.
 - The learner leaves with more independent capability than they arrived with.
 
+Add the compression distinction:
+
+- AI should compress incidental friction: setup, version hunting, boilerplate,
+  noisy experiments, and undirected searching.
+- It should not compress away prediction, interpretation, judgment,
+  reconstruction, or transfer by handing over a finished conclusion.
+- The relevant acceleration is not answer latency. It is the density of clear,
+  learner-owned model revisions.
+
+Add one short gamification distinction:
+
+- Game the environment, not the learner's cognition.
+- Missions, constraints, visible earned unlocks, artifacts, and next challenges
+  can make return compelling.
+- The learner still owns the acts that create understanding.
+- Keep this as a future opt-in layer for deep, demanding subjects rather than
+  the article's immediate product prescription.
+
 Name the product contract:
 
 > AI is the environment around the work, not the worker performing the target
 > cognition.
 
-### 7. Explain Why Immediate Answers Can Starve the Model
+### 8. Explain Why Immediate Answers Can Starve the Model
 
 Return to the cognitive-decay side of the opening paradox.
 
@@ -311,7 +370,7 @@ Transition:
 
 > Learner ownership is not the same as doing everything manually.
 
-### 8. Draw the Delegation Boundary
+### 9. Draw the Delegation Boundary
 
 Prevent the thesis from sounding anti-tool or anti-efficiency.
 
@@ -341,7 +400,7 @@ Include practical exceptions:
 - The learner should consciously choose whether the current goal is learning,
   exploration, delegation, or rescue.
 
-### 9. Distinguish Development From Research
+### 10. Distinguish Development From Research
 
 Show why one tutoring cadence cannot serve every moment.
 
@@ -368,7 +427,7 @@ Explain the common core:
 - They differ in path breadth, stopping condition, and how quickly they must
   return to an artifact.
 
-### 10. Show the End State: From Being Probed to Self-Probing
+### 11. Show the End State: From Being Probed to Self-Probing
 
 Describe what successful scaffolding should eventually produce.
 
@@ -393,7 +452,7 @@ Transition:
 > The most powerful AI tutor may be the one that gradually makes its own role
 > less necessary.
 
-### 11. Close With the Larger Possibility
+### 12. Close With the Larger Possibility
 
 Return to the two futures from the introduction.
 
@@ -406,6 +465,11 @@ Points to cover:
 - The relevant acceleration is not answer latency. It is the density of clear,
   learner-owned model revisions and the increasing ability to create the next
   useful experiment.
+- The deeper hypothesis is that the learner can become better at learning
+  itself: identifying gaps, choosing experiments, interpreting feedback, and
+  transferring patterns into the next domain.
+- This may make the learning rate itself improve over time, not only the amount
+  learned in one session.
 - The superpower is not instant access to answers.
 - It is increasing the number and quality of genuine model revisions a learner
   can make.
@@ -431,6 +495,9 @@ Before drafting prose, identify:
 - One moment when you started asking the probing question yourself
 - One development-mode example where a narrow repair got you back to building
 - One research-mode example where broader FAFO changed the primitives you saw
+- One non-AI learning episode where tight feedback, visible progress, and care
+  produced a rapid jump; use it as the origin of the design intuition, not as
+  proof of a universal claim
 
 These examples should carry the article. The framework should explain the
 experience rather than replace it.
@@ -446,6 +513,8 @@ experience rather than replace it.
   measured universal outcomes.
 - Present "exponential" improvement as imagination or hypothesis unless later
   evidence supports it.
+- Do not frame engagement as involuntary compulsion. Frame the future ambition
+  as voluntary deep engagement built from real capability growth.
 - Do not present threshold mining as an automatic discovery of domain truth.
 - Do not treat faster interaction as a compounding loop unless failures become
   reusable structure.
@@ -453,10 +522,13 @@ experience rather than replace it.
 ## Source Basis
 
 - [Learner-Owned Model Construction](accelerated-learning/concepts/01-learner-owned-model-construction.md)
+- [Curriculum as Leverage Architecture](accelerated-learning/concepts/07-curriculum-as-leverage-architecture.md)
 - [Directed Confusion and Feedback Density](accelerated-learning/concepts/20-directed-confusion-and-feedback-density.md)
+- [Engagement Through Earned Capability](accelerated-learning/concepts/15-engagement-through-earned-capability.md)
 - [Scaffolding Without Epistemic Dependency](accelerated-learning/concepts/18-scaffolding-without-epistemic-dependency.md)
 - [Threshold and Unlock Engineering](accelerated-learning/concepts/08-threshold-and-unlock-engineering.md)
 - [Elite Hacker Roadmap](accelerated-learning/sources/S02-elite-hacker-roadmap.md)
+- [Actual Roadmap](accelerated-learning/sources/S01-actual-roadmap.md)
 - [AI and Cognitive Softness](accelerated-learning/sources/S03-ai-and-cognitive-softness.md)
 - [Cognitive Scaffolding Shift](accelerated-learning/sources/S04-cognitive-scaffolding-shift.md)
 - [Delayed Growth, Exponential Jump](accelerated-learning/sources/S05-delayed-growth.md)

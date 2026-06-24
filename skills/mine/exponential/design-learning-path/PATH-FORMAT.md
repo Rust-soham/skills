@@ -12,6 +12,8 @@ Use only sections the task needs.
 - Use conditions:
 - Independent success:
 - Constraints:
+- Mission type: unblock-build | abstraction-untangle | research-map | layered-capability | transfer-synthesis
+- Out of scope:
 - Mode: development | research
 - Compounding thesis:
 

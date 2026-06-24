@@ -61,4 +61,4 @@ Never manufacture remembered history, learner confusion, or progress.
 [Dynamic AI Modes](13-dynamic-ai-mode-and-delegation-boundary.md).
 
 Runtime:
-[learn-deeply](../../../skills/productivity/learn-deeply/SKILL.md).
+[learn-deeply](../../../skills/mine/exponential/learn-deeply/SKILL.md).

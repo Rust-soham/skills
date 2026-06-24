@@ -51,4 +51,4 @@ Suspect avoidance only when a pattern repeats:
 [Avoidance tension](../TENSIONS.md#17-avoidance-detection-vs-legitimate-detour).
 
 Runtime:
-[programming adapter](../../../skills/productivity/learn-deeply/PROGRAMMING.md).
+[programming adapter](../../../skills/mine/exponential/learn-deeply/PROGRAMMING.md).

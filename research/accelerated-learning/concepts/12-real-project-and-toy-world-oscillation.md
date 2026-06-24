@@ -48,4 +48,4 @@ constraints, ending evidence, and project action that resumes.
 [Project versus toy tension](../TENSIONS.md#6-real-project-vs-isolated-toy-world).
 
 Runtime:
-[programming adapter](../../../skills/productivity/learn-deeply/PROGRAMMING.md).
+[programming adapter](../../../skills/mine/exponential/learn-deeply/PROGRAMMING.md).

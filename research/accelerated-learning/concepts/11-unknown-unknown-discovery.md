@@ -47,5 +47,5 @@ inspect, reproduce, or defend against evidence.
 [Comparative Taste](19-comparative-taste-and-constraint-artifacts.md).
 
 Runtime:
-[learn-deeply](../../../skills/productivity/learn-deeply/SKILL.md),
-[design-learning-path](../../../skills/productivity/design-learning-path/SKILL.md).
+[learn-deeply](../../../skills/mine/exponential/learn-deeply/SKILL.md),
+[design-learning-path](../../../skills/mine/exponential/design-learning-path/SKILL.md).

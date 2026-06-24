@@ -56,4 +56,4 @@ Examples:
 [Artifact Contact](16-artifact-contact-and-avoidance-detection.md).
 
 Runtime:
-[programming adapter](../../../skills/productivity/learn-deeply/PROGRAMMING.md).
+[programming adapter](../../../skills/mine/exponential/learn-deeply/PROGRAMMING.md).

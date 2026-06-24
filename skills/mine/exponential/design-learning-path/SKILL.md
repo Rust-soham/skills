@@ -7,7 +7,7 @@ description: Designs a step-by-step path whose ordered model transitions compoun
 
 ## Compounding Objective
 
-Build a step-by-step structured path to the target state. Order it so each step
+Build a step-by-step structured path to the target state. This skill sequences leverage-ordered transitions; `learn-deeply`, when available, executes and verifies one selected step. For choices about mission shape, leverage, or learner agency, read [FOUNDATIONS.md](./FOUNDATIONS.md). Order it so each step
 compounds competency, pushes the learner into a pit of success, and increases
 the rate at which succeeding steps can be learned by reusing relevant prior
 foundations.
@@ -29,10 +29,13 @@ mechanism.
 
 ## Establish the Target
 
-1. Define the target generative capability, use conditions, and why it matters.
-2. Define observable independent success.
-3. Read relevant global learner evidence and local mission state.
-4. Verify claimed prior knowledge before using it to compress the path.
+1. Classify the mission: `unblock-build`, `abstraction-untangle`,
+   `research-map`, `layered-capability`, or `transfer-synthesis`. It changes
+   graph breadth, artifact, and return condition, not the curriculum invariant.
+2. Define the target generative capability, use conditions, and why it matters.
+3. Define observable independent success and explicit exclusions.
+4. Read relevant global learner evidence and local mission state.
+5. Verify claimed prior knowledge before using it to compress the path.
 
 ## Autopsy the Domain
 
@@ -86,6 +89,9 @@ Do not misrepresent them as transformations.
 - Gates test generation, reconstruction, or transfer.
 - Real use conditions appear early enough for feedback to shape the path.
 - New learner evidence can reorder, split, insert, or remove steps.
+
+For post-unlock retrieval and transfer without the original scaffold, use
+[DURABILITY-GATES.md](./DURABILITY-GATES.md).
 
 Write the result using [PATH-FORMAT.md](./PATH-FORMAT.md). In an active
 workspace, update `.learning/CURRICULUM.md`.
