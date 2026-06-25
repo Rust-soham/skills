@@ -1,0 +1,21 @@
+{
+  "name": "rust-soham-skills",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Soham's agent skills for exponential learning and engineering workflows",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rust-soham/skills"
+  },
+  "license": "MIT",
+  "scripts": {
+    "changeset": "changeset",
+    "version": "changeset version",
+    "list": "./scripts/list-skills.sh"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.7.0",
+    "@changesets/cli": "^2.30.0"
+  },
+  "packageManager": "npm@11.13.0"
+}
