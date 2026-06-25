@@ -1,6 +1,6 @@
 {
   "name": "rust-soham-skills",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "Soham's agent skills for exponential learning and engineering workflows",
   "repository": {
