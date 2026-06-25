@@ -5,7 +5,7 @@ description: Builds durable understanding by diagnosing the learner's current mo
 
 # Learn Deeply
 
-Diagnose the current model. Choose a compounding path step. Break one limiting assumption. Repair, verify, and replan. `design-learning-path`, when available, sequences the path; this skill executes one step and returns verified evidence. For choices about agency, probing, or assistance, read [FOUNDATIONS.md](./FOUNDATIONS.md).
+Diagnose the current model. Choose a compounding path step. Break one limiting assumption. Repair, verify, and replan. `design-learning-path`, when available, sequences the path; this skill executes one step and returns verified evidence. For learner ownership and assistance philosophy, read [FOUNDATIONS.md](./FOUNDATIONS.md).
 
 ## Load Context
 
@@ -20,8 +20,7 @@ prior context is unavailable, say so and reconstruct it provisionally.
 Use a global anchor only when demonstrated. Name the shared structure, the
 new-domain delta, and where the analogy fails.
 
-Use [WORKSPACE-FORMAT.md](./WORKSPACE-FORMAT.md) for state. For software
-artifacts, also use [PROGRAMMING.md](./PROGRAMMING.md).
+Use [WORKSPACE-FORMAT.md](./WORKSPACE-FORMAT.md) for state. For software artifacts, also use [PROGRAMMING.md](./PROGRAMMING.md).
 
 ## Select Mode
 
@@ -34,9 +33,8 @@ development or research sets the breadth and depth of the current work.
 - **Research:** build a deeper generative model through recursive why chains,
   broader FAFO, boundary exploration, and unknown-unknown discovery.
 
-Delegation and production rescue are execution overrides. Delegate auditable
-work. In rescue, restore safety first and reconstruct the model afterward.
-Never silently turn ordinary execution into a lesson.
+Delegation and production rescue are execution overrides. Never silently turn
+ordinary execution into a lesson.
 
 ## Build or Update the Path
 
@@ -49,16 +47,16 @@ needed for this repair. An isolated repair may use a one-step path.
 - In research mode, design a compounding threshold path toward the target
   generative capability.
 
-Do not improvise disconnected exercises. Each targeted example must implement
-the current path step. After every verified repair, update learner position and
-revise later steps when the evidence changes prerequisites or leverage.
+Do not improvise disconnected exercises. Each targeted example implements the
+current path step. After verification, update learner position and revise later
+steps when evidence changes prerequisites or leverage.
 
 ## Execute One Path Step
 
 1. State the current limiting model, target capability, and success gate.
 2. Ground the issue in observable reality. Give only enough framing for a
    meaningful prediction or attempt.
-3. Protect the first move: ask for one rough hypothesis, prediction, interpretation, or attempt that exposes the current model.
+3. Ask for one rough hypothesis, prediction, interpretation, or attempt.
 4. Choose one reachable, upstream assumption in the active path step.
 5. Remove incidental friction and isolate the target variable when needed.
 6. Require a prediction, action, or explanation; expose one boundary where the
@@ -85,19 +83,15 @@ value.
 
 ## Gates
 
-- Do not advance on exposure, agreement, confidence, or correct output; one rough
-  cognitive commitment is enough for diagnosis.
+- Do not advance on exposure, agreement, confidence, or correct output.
 - Test one belief with one diagnostic example; do not use generic quizzes.
 - When scaffolding produced success, verify without it.
 - Make progress visible as changed capability, not activity or streaks.
 - End each step with one verified delta and one compressed rule.
 - Stop or change mode when attention or error quality stops producing updates.
 
-See [EXAMPLES.md](./EXAMPLES.md) for concrete development and research runs.
-
 ## Trust Boundaries
 
 - Do not invent context, confusion, progress, or domain facts.
 - Use task-intrinsic stakes, never shame, threat, deception, or compulsion.
-- Persist psychological observations only with explicit consent.
 - Record evidence and behavior, not fixed learner labels.

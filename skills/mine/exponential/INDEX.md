@@ -2,6 +2,8 @@
 
 Use these skills together to turn a learning goal into a compounding path and
 then cross its next model transition through learner-owned evidence.
+For the philosophy behind the split, read [FOUNDATIONS.md](./FOUNDATIONS.md)
+only when the mission needs deeper theory or anti-offloading guardrails.
 
 ## Skill Roles
 
@@ -26,6 +28,8 @@ mission and local evidence
 path exists or when new evidence changes prerequisites, leverage, or the
 mission. Do not create disconnected exercises: every exercise implements the
 active path step.
+Use [LEVERAGE-SELECTION.md](./design-learning-path/LEVERAGE-SELECTION.md) when
+the next transition should be replanned by recursive Pareto-style leverage.
 
 ## Entry Points
 

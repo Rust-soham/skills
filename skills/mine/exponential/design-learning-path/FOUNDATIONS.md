@@ -14,6 +14,13 @@ step size, evidence, and return conditions. They share the same sequencing
 philosophy: select the next reachable transition with the greatest future
 leverage.
 
+## Recursive Pareto
+
+Use recursive Pareto as a selection heuristic, not a growth claim. After each
+verified unlock, re-evaluate the remaining search space and choose the next
+small reachable transition with the largest expected leverage for the current
+mission.
+
 ## Learner Ownership
 
 The path selects a threshold; `learn-deeply` lets the learner cross it. Design

@@ -7,7 +7,7 @@ description: Designs a step-by-step path whose ordered model transitions compoun
 
 ## Compounding Objective
 
-Build a step-by-step structured path to the target state. This skill sequences leverage-ordered transitions; `learn-deeply`, when available, executes and verifies one selected step. For choices about mission shape, leverage, or learner agency, read [FOUNDATIONS.md](./FOUNDATIONS.md). Order it so each step
+Build a step-by-step structured path to the target state. This skill sequences leverage-ordered transitions; `learn-deeply`, when available, executes and verifies one selected step. For mission shape and agency, read [FOUNDATIONS.md](./FOUNDATIONS.md). For step selection and replanning, read [LEVERAGE-SELECTION.md](./LEVERAGE-SELECTION.md). Order it so each step
 compounds competency, pushes the learner into a pit of success, and increases
 the rate at which succeeding steps can be learned by reusing relevant prior
 foundations.
@@ -21,11 +21,9 @@ Each model-transition step must:
 - Unlock better questions, probes, feedback, or artifacts
 - Make the correct next action the easiest natural action: a pit of success
 
-Successive steps should accelerate not only competency, but the rate at which
-later competency can be acquired. Treat "exponential" as a design objective
-meaning multiplicative reuse and increasing learning leverage, not a numerical
-promise. Each path step is one model transition. State its causal compounding
-mechanism.
+Treat "exponential" as multiplicative reuse and increasing learning leverage,
+not a numerical promise. Each step is one model transition with a named causal
+compounding mechanism.
 
 ## Establish the Target
 
@@ -45,7 +43,7 @@ Ground unstable claims in high-trust, version-matched sources. Identify:
 - Core primitives, invariants, boundary conditions, and candidate coordinate shifts
 - Prerequisite relations and high-leverage thresholds
 - Common limiting models and where they fail
-- Real use conditions, artifacts, failure modes, and feedback loops
+- Real use conditions and feedback loops
 
 ## Build the Graph
 
@@ -56,7 +54,7 @@ Ground unstable claims in high-trust, version-matched sources. Identify:
 4. Add only prerequisites needed for a meaningful collision and verification.
 5. Order steps so each consumes foundations from earlier steps and lowers the
    cost of later ones.
-6. Schedule recontextualization after every major threshold.
+6. Schedule recontextualization and replan after every major threshold.
 
 Treat mined thresholds as hypotheses until domain evidence and learner behavior
 support them. Leverage chooses the destination; capability chooses step size and scaffolding.
@@ -70,15 +68,10 @@ Define:
 - Limiting model and useful boundary
 - New invariant or generative model
 - Engineered breaking experience
-- Artifact and fast feedback loop
+- Artifact and feedback loop
 - Generative gate
-- Future friction removed
-- Later steps accelerated
-- Prior knowledge recontextualized
+- Future friction removed or later steps accelerated
 - Pit-of-success environment
-
-Supporting terminology, retrieval, and fluency may sit inside path steps.
-Do not misrepresent them as transformations.
 
 ## Validate the Sequence
 
